@@ -1,0 +1,135 @@
+\documentclass[letterpaper,12pt,oneside]{book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[top=1in, left=1.25in, right=1.25in, bottom=1in]{geometry}
+\usepackage{bachelorstitlepageUNAM}
+\usepackage[utf8]{inputenc}
+\usepackage[normalem]{ulem}
+\usepackage{amssymb}
+\usepackage[font=scriptsize,labelfont=bf, textfont={scriptsize}, skip=0pt]{caption}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{caption}
+\usepackage[format=hang,singlelinecheck=false,labelfont=bf,skip=-3pt]{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ket}[1]{\big |{#1}\big \rangle}
+\newcommand{\bra}[1]{\big \langle{#1}\big |}
+\newcommand{\expectv}[1]{\big \langle{#1} \big \rangle}
+\newcommand{\braket}[2]{\big \langle{#1}\big | {#2} \big \rangle}
+\newcommand{\sandwich}[3]{\big \langle{#1}\big | {#2} \big | {#3} \big \rangle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Comparto una plantilla para la PORTADA que us\'e en mi t\'esis
+% basada en el dise\~no gen\'erico que se usa en la Facultad de Ciencias
+% Para usarlo \'unicame  nte aseg\'urate de tener la l\'inea
+% \usepackage{bachelorstitlepageUNAM} y el archivo bachelorstitlepageUNAM.sty en el mismo directorio de trabajo.
+% y los campos (sin signo %) :
+%\author{Nombre del Alumno}
+%\title{T\'itulo de la tesis}
+%\faculty{Facultad}
+%\degree{Grado que obtienes}
+%\supervisor{ Tutor}
+%\cityandyear{Ciudad y anio}
+%\logouni{nombredelescudodelaunamsinespacios}
+%\logofac{NombreDeLaImagenDelEscudodeTuFacultadSinEspacios}
+% Para sugerencias y comentarios: DM en twitter.com/sglvgdor
+% Subir\'e mas adelante la plantilla para maestr\'ia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Marco Antonio Díaz Villarreal}
+\title{Estados topológicos de orden superior sobre una red de Sierpinski}
+\faculty{Facultad de Ciencias}
+\degree{FÍSICO}
+\supervisor{Dr. José Eduardo Barrios Vargas}
+\cityandyear{Ciudad Universitaria, Cd. Mx., 2020}
+\logouni{Escudo-UNAM}
+\logofac{Escudo-FCIENCIAS}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{amsmath}
+\setcounter{MaxMatrixCols}{20}
+
+
+\graphicspath{{./figs/}}
+\usepackage{setspace}
+%\usepackage[round]{natbib}
+
+% Línea agregada para incluir comentarios
+\newcommand{\comA}[1]{\textcolor{blue}{#1}}
+
+\begin{document}
+\frontmatter
+\maketitle
+\chapter*{}
+\begin{flushright}%
+  \emph{A mis padres,\\ a mi familia,\\ a mis amigos.}
+  \thispagestyle{empty}
+\end{flushright}
+
+\chapter{Agradecimientos}
+\spacing{1.5}%\doublespacing
+
+Agradezco a mis padres, a mis hermanas, a mi tía y mis primos todo el apoyo incondicional, el amor y el apoyo económico otorgado, sin ellos no habría logrado sobrellevar tiempo difíciles, mis estudios. Todo lo que soy se lo debo a ellos. 
+
+Agradezco a mis profesores especialmente a mi profesor de preparatoria Juan José Borrego Cadena, que sin su soporte, guía e inspiración no habría escogido una carrera científica. También quisiera agradecer a mi asesor de tesis José Eduardo Barrios Vargas, que sin su paciencia, guía y dedicación este trabajo jamas se habría terminado.
+
+Agradezco a mis amigos, los mejores que uno pudiera desear, que me han acompañado y soportado en los momentos mas difíciles, hemos compartido sueños y experiencias, hemos crecido juntos.
+
+Finalmente, agradezco a la Universidad Nacional Autónoma de México brindarme la oportunidad de tener una educación de calidad publica y gratuita, la contrariedad de la institución en todo sus hábitos ha sido un perfecto ambiente para generar un pensamiento critico, político y científico. También agradezco al programa DGAPA-PAPIIT por el apoyo económico que se me otorgo durante el tiempo de realización de esta tesis.
+
+DGAPA -- PAPIIT
+\chapter{Resumen}
+
+
+
+\tableofcontents
+% \listoffigures
+
+    
+\mainmatter
+
+
+% 
+% Introducción
+%
+\include{Cap1_Intro}
+
+%
+% Marco Teórico
+%
+\include{Cap2_MarcoTeorico}
+
+%
+% Descripción del proyecto
+%
+
+\include{Cap3_DescripcionDelProyecto}
+
+%
+% Resultados
+%
+\include{Cap4_Resultados}  %
+
+
+
+%
+% Conclusiones
+%
+\chapter{Conclusiones}  %
+
+\textit{Aqui pondras tus concluciones, como se comporto el multipolo fractal, etc.} 
+
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+
+
+\bibliographystyle{plain}
+\bibliography{references.bib}
+
+\backmatter%@sglvgdor
+\end{document}
