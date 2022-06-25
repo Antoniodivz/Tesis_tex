@@ -160,7 +160,7 @@ Esta forma simplifica mucho el calculo de los invariantes topológicos que defin
         \label{fig:SSH_Img_Results}
 \end{figure}
 
-Al resolver el sistema de los hamiltonianos (\ref{eq:Hamiltonian_ssh_real}) y (\ref{eq:Hamiltonian_ssh_bloch}) obtenemos los resultados de la figura (\ref{fig:SSH_Img_Results}), en \textbf{(a)} tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas negras corresponden a las energías del cuerpo o bulto de la cadena y las lineas rojas con azul muestran las energías de borde que aparecen debido a la finitud de la cadena y son las energias mas cercanas a la energia de Fermi, Notemos que para los parametros de salto $|\gamma/\lambda|<1$ las energías de los estados de borde se localizan en la energía de Fermi, a estos estados se le conoce como estados topológicos o fase topológica, al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real (fig \ref{fig:SSH_Img_Results} \textbf{(b)}, obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización de la cadena, por otro lado, para el los parámetros $|\gamma/\lambda| > 1$ se puede ver en la proyección de los estados de borde la densidad de probabilidad esta distribuida uniformemente en la cadena, como un aislante común, a este estado se le conoce como fase trivial.
+Al resolver el sistema de los hamiltonianos (\ref{eq:Hamiltonian_ssh_real}) y (\ref{eq:Hamiltonian_ssh_bloch}) obtenemos los resultados de la figura (\ref{fig:SSH_Img_Results}), en \textbf{(a)} tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas negras corresponden a las energías del cuerpo o bulto de la cadena y las lineas rojas con azul muestran las energías de borde que aparecen debido a la finitud de la cadena y son las energias mas cercanas a la energia de Fermi, Notemos que para los parametros de salto $|\gamma/\lambda|<1$ las energías de los estados de borde se localizan en la energía de Fermi, a estos estados se le conoce como estados topológicos o fase topológica, al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real (fig \ref{fig:SSH_Img_Results} \textbf{(b)}), obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización de la cadena, por otro lado, para el los parámetros $|\gamma/\lambda| > 1$ se puede ver en la proyección de los estados de borde la densidad de probabilidad esta distribuida uniformemente en la cadena, como un aislante común, a este estado se le conoce como fase trivial.
 
 Una forma de estudiar el comportamiento de los estados topológicos y triviales de esta cadena, es a través de la información que se puede obtener de la relación de dispersión. 
 
@@ -175,10 +175,9 @@ Para el modelo SSH, tenemos que:
   d_0(k) = 0 ,\; d_x(k) = \gamma + \lambda \cos(k) , \; d_y(k) = \lambda \sin(k), \; d_z(k) = 0  
 \end{equation}
 
-La estructura interna de los estados con momento $k$ esta dada por la dirección del vector $\mathbf{d}(k)$, como el numero de onda $k  \in \left[ 0, \; 2\pi \right]$, la ruta que traza $\mathbf{d}(k)$ es un circuito cerrado de radio $\lambda$ en el plano $dx, \,dy$ y centrado en el punto $(\gamma, 0)$. Para que este hamiltoniano describa un aislante es necesario que los círculos que se forman no incluyan el origen. (\textit{referencia A Short Corse}) La topología de estos ciclos pueden ser caracterizados por un entero, que cuenta el numero de veces que el ciclo rodea el origen, esta cantidad es conocida como el numero de Winding, que es un invariante topológico.
+La estructura interna de los estados con momento $k$ esta dada por la dirección del vector $\mathbf{d}(k)$, como el numero de onda $k  \in \left[ 0, \; 2\pi \right]$, la ruta que traza $\mathbf{d}(k)$ es un circuito cerrado de radio $\lambda$ en el plano $dx, \,dy$ y centrado en el punto $(\gamma, 0)$. Para que este hamiltoniano describa un aislante es necesario que los círculos que se forman no incluyan el origen\cite{Asboth2015}. La topología de estos ciclos pueden ser caracterizados por un entero, que cuenta el numero de veces que el ciclo rodea el origen, esta cantidad es conocida como el numero de Winding, que es un invariante topológico.
 
-Para el modelo SSH el numero de Winding puede ser 0 o 1, dependiendo de los parámetros, como se puede ver en la figura 2.6 c), donde se puede notar mas a detalle como los ciclos encierran o no el origen dependiendo de los parametros, cambiando las el estado del material entre topológico (rojo) y el trivial (azul). 
-Sin embargo el numero de Winding no es el único numero que caracteriza la topología de la cadena de poliacetileno, en la figura 2.1 d) se puede observar el comportamiento de la fase de Zak, que es un invariante topológico que surge de la observación del cambio de fase de la funciones de bloch conforme se recorre de manera cíclica la zona de Brilluan. Este invariante describe como los estados, cuando son topologicos, ganan una fase de $\pi$, es decir, los estados no regresan a su estado inicial después de un ciclo. La Fase de Zak como otros invariantes, es un caso particular de la fase de Berry.
+Para el modelo SSH el numero de Winding puede ser 0 o 1, dependiendo de los parámetros, como se puede ver en la \ref{fig:SSH_Img_Results} \textbf{(c)}, donde se puede notar mas a detalle como los ciclos encierran o no el origen dependiendo de los parametros, cambiando las el estado del material entre topológico (rojo) y el trivial (azul). Sin embargo el numero de Winding no es el único numero que caracteriza la topología de la cadena de poliacetileno, en la figura \ref{fig:SSH_Img_Results} \textbf{(d)} se puede observar el comportamiento de la fase de Zak o fase de Berry, que es un invariante topológico que surge de la observación del cambio de fase de la funciones de bloch conforme se recorre de manera cíclica la zona de Brillouin. Este invariante describe como los estados, cuando son topologicos, ganan una fase de $\pi$, es decir, los estados no regresan a su estado inicial después de un ciclo. La Fase de Zak como otros invariantes, es un caso particular de la fase de Berry.
 
 \section{Invariantes topológicos (Fase de Berry)}
 
@@ -238,6 +237,8 @@ Donde al vector $\Omega_n = \nabla_\lambda \times A_n$ se le conoce como curvatu
 
 En los textos de electromagnetismo la polarización macroscópica se define como la cantidad de dipolos eléctricos por unidad de volumen, donde los dipolos son pequeñas unidades polarizadas, en la simplificación del problema se asume que la distribución de carga entre los dipolos eléctricos es nula. Sin embargo, al estudiar la densidad electrónica de un material polarizado a través de la mecánica cuántica podremos notar que la carga no esta divida en paquetes convenientes y que la unidad de polarización no existe. 
 
+\input{Images_Models/Image_Model_Polarizatioin.tex}
+
 Una aparente solución podría ser contar los momentos dipolares como una integral continua sobre la densidad electrónica, sin embargo esta solución es solo aparente, pues esta cantidad depende de como se seleccione la celda sobre la cual se integra, este detalle podría darnos cantidades distintas para para diferentes elecciones de celda, es decir, conocer la densidad electrónica no es información suficiente para determinar la polarización en una red aislante cristalina.
 \begin{equation}
 \label{polarization_classic}
@@ -246,25 +247,29 @@ Una aparente solución podría ser contar los momentos dipolares como una integr
 
 por ejemplo:
 
-Supongamos que tenemos una red cristalina periódica conformada por una molécula dicotómica que se repite indefinidamente formando una cadena infinita, la molécula esta formada por un anión y un catión, ambos separados a una distancia $d$ y la celda unitaria tiene una distancia $a$ (imagen 1). Si calculamos la polarización con la expresión \ref{polarization_classic} obtendremos:
+Supongamos que tenemos una red cristalina periódica conformada por una molécula dicotómica que se repite indefinidamente formando una cadena infinita, la molécula esta formada por un anión y un catión, ambos separados a una distancia $d$ y la celda unitaria tiene una distancia $a$ (fig \ref{fig:Model_polarization} \textbf{(a)}). Si calculamos la polarización con la expresión \ref{polarization_classic} obtendremos la ecuación \ref{eq:pol1}.
 
 \begin{equation}
+    \label{eq:pol1}
     P_1 = \frac{qd}{a}
 \end{equation}
 
-Ahora supongamos que la selección de la celda unitaria es de la misma longitud pero con una posición diferente, como se muestra en la (imagen 2), al calcular la polarización obtenemos 
+Ahora supongamos que la selección de la celda unitaria es de la misma longitud pero con una posición diferente, como se muestra en la (fig \ref{fig:Model_polarization} \textbf{(b)}), al calcular la polarización obtenemos la ecuación \ref{eq:pol2}.
 
 \begin{equation}
+    \label{eq:pol2}
     P_2 = \frac{qd}{a} + q
 \end{equation}
 
-Si nos tomamos todas las posibles elecciones de celdas llegaremos a la conclusión de que la expresión en general de la polarización es:
+Si nos tomamos todas las posibles elecciones de celdas llegaremos a la conclusión de que la expresión en general de la polarización estara dada por las expresiones \ref{eq:pol_gral1d} y \ref{eq:pol_gral3d}.
 
 \begin{equation}
-    P = P_o + nq\,\,  {\rm con} \,\,n \in \mathbb{Z}\,\, {\rm para el caso 1D} 
+    \label{eq:pol_gral1d}
+    P = P_o + nq\,\,  {\rm con} \,\,n \in \mathbb{Z}\,\, text{para el caso 1D} 
 \end{equation}
 
 \begin{equation}
+    \label{eq:pol_gral3d}
     P = P_o + n\frac{qR}{V}\,\,  \text{con} \,\,n \in \mathbb{Z}\,\, \text{para el caso 3D}
 \end{equation}
 
