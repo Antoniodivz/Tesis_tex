@@ -3,7 +3,7 @@
 \begin{center}
 \begin{minipage}{0.9\textwidth}
 {\small
-{\bf Resumen:} En el presente capítulo introduciremos la aproximación del Hamiltoniano de enlace fuerte. Utilizando dicha aproximación, presentaremos el modelo Su-Schrieffer-Heeger (SSH) y describiremos la aparición de estados polarizados en dicho modelo; la aparición de dichos estados estará determinada por un invariante topológico. Este modelo se extenderá sustituyendo los parámetros de salto por parámetros cíclicos, obteniendo estados de bombeo de cargas.
+{\bf Resumen:} En el presente capítulo introduciremos la aproximación del Hamiltoniano de enlace fuerte. Utilizando dicha aproximación, presentaremos el modelo Su-Schrieffer-Heeger (SSH) y describiremos la aparición de estados polarizados en dicho modelo; la aparición de dichos estados estará determinada por un invariante topológico llamado \textit{Fase de Berry}. También se discutirá el modelo de Rice-Mele que sustituye los parámetros de salto del modelo SSH por parámetros cíclicos y agrga un parametro de sitio, obteniendo estados de bombeo de carga.
 }
 \end{minipage}
 \end{center}
@@ -15,13 +15,15 @@
     
     Consideremos la ecuación de Schrödinger $H \ket{\psi} = E \ket{\psi}$ de un cristal con un átomo en su celda unitaria, el cual podemos describir por un sólo orbital. El eigenestado de dicho cristal se puede escribir como $\ket{\psi} = \displaystyle 
     \sum_{i} c_i \ket{\omega_i}$, donde $\omega_i(\boldsymbol{r})=\braket{\boldsymbol{r}}{\omega_i}$ es una función tipo orbital localizada del $i$-ésimo sitio tal que $\braket{\omega_i}{\omega_j} = 0$  con $i \neq j$. Los coeficientes $c_i$ se pueden obtener resolviendo el sistema de ecuaciones:
-    \begin{equation}
-    \label{Coefficent_no_ortogonal}
+    \begin{equation} 
+        \label{eq:Hopping_no_ortogonal}
         \sum_i c_i \sandwich{\omega_i}{H}{\omega_j} = E c_j
     \end{equation}
     
     El modelo de enlace fuerte describe las propiedades de electrones fuertemente ligados a los átomos del cristal, por lo que la interacción entre atómos vecinos decae de tal manera que solo se considera la interacción a vecinos cercanos, en consecuencia  $\sandwich{\omega_i}{H}{\omega_j} = \gamma_{i,j}$ si $i$ y $j$ son átomos vecinos cercanos, donde $\gamma_{i,j}$ se llama integral de salto o {\it hopping} y $\sandwich{\omega_i}{H}{\omega_j} = 0$ si $i$ y $j$ no son vecinos cercanos. Dada la hermiticidad de la matriz el parámetro de {\it hopping} es igual a su complejo conjugado $\gamma_{i,j} = \gamma^*_{j,i}$.
-    Ajustamos la energía de referencia tal $\sandwich{\omega_j}{H}{\omega_j} = 0$. Entonces, la ecuación \eqref{Coefficent_no_ortogonal} esta dada por:
+
+    Ajustamos la energía de referencia tal $\sandwich{\omega_j}{H}{\omega_j} = 0$. Entonces, la ecuación \ref{eq:Hopping_no_ortogonal} esta dada por:
+
     \begin{equation}
         \sum_{\langle i, j \rangle } ( \gamma_{i,j} - \delta_{i,j}E )c_j = 0, \,\,\, \forall\,\, j
     \end{equation}
@@ -38,15 +40,27 @@
     Con esto hemos convertido el problema de la solución de la ecuación de Schrödinger en un problema de eigenvalores para un matriz (ver~\ref{SecEjemplo} Ejemplo).
     %de $i\times j$, para valores pequeños de $i $ y $j$ esta matriz se puede sencillamente (ver ejemplo)  para valores mas grandes esta matriz se puede diagonalizar de manera numérica.
 
-    \subsection{Ejemplo}\label{SecEjemplo}
+    \subsection{Ejemplo}
+    \label{SecEjemplo}
+    \vspace{-1.5cm}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Models/TB_example.pdf}\vspace{-1.5cm}
+        \caption{Red cristalina unidimensional de átomos de hidrogeno}
+        \label{fig:Hidrogen_chain}
+    \end{figure}
     
-    Supongamos que tenemos una red unidimensional cristalina de átomo de hidrogeno que se acomodan sobre una línea recta, como se muestra en la figura (imagen \comA{Falta imagen}). Los traslapes de los orbitales localizados entre vecinos cercanos ayudan al electrón a deslocalizarse de una celda a otra, saltando de un átomo a otro, este potencial de salto está dado por el potencial de traslape o \textit{hopping} entre dos sitios, denotado por $\gamma_{i,j}$, para este sistema el hamitoniano de amarre fuerte está dado por:
-    \begin{equation}\label{HidrogenoTBH}
+    Supongamos que tenemos una red unidimensional cristalina de átomo de hidrogeno que se acomodan sobre una línea recta, como se muestra en la figura(\ref{fig:Hidrogen_chain}). Los traslapes de los orbitales localizados entre vecinos cercanos ayudan al electrón a deslocalizarse de una celda a otra, saltando de un átomo a otro, este potencial de salto está dado por el potencial de traslape o \textit{hopping} entre dos sitios, denotado por $\gamma_{i,j}$, para este sistema el hamitoniano de amarre fuerte está dado por:
+
+    \begin{equation}
+        \label{HidrogenoTBH}
         H =  -\sum_{i}\sum_{\langle i, j \rangle } \gamma_{ij} \ket{i}\bra{j}
     \end{equation}
     donde la primera suma es sobre el índice de la celda y la segunda suma es sobre los vecinos cercanos del átomo en la celda unitaria.
     
-    Dado que tenemos un sistema periódico, empezaremos escribiendo el operador de traslación $T = \ket{i}\bra{i+1}$ el cual denota la traslación del sitio $i$ al $i+1$, si asumimos que los términos de {\it hopping} dependen únicamente de la distancia entre dos sitios, entonces, $\gamma_{i,i+n} \equiv \gamma_{n}$, entonces ahora podemos escribir el Hamiltoniano de la ecuación \eqref{HidrogenoTBH} en función del operador de traslación como $H = -\sum_n \gamma_n T_n$, notemos que ahora es posible diagonalizar el hamiltoniano en la base del operador de traslación, la cual sabemos esta compuesta por los estados de onda plana definidas como:
+    Dado que tenemos un sistema periódico, empezaremos escribiendo el operador de traslación $T = \ket{i}\bra{i+1}$ el cual denota la traslación del sitio $i$ al $i+1$, si asumimos que los términos de {\it hopping} dependen únicamente de la distancia entre dos sitios, entonces, $\gamma_{i,i+n} \equiv \gamma_{n}$, entonces ahora podemos escribir el Hamiltoniano de la ecuación \ref{HidrogenoTBH} en función del operador de traslación como $H = -\sum_n \gamma_n T_n$, notemos que ahora es posible diagonalizar el hamiltoniano en la base del operador de traslación, la cual sabemos esta compuesta por los estados de onda plana definidas como:
+
     \begin{equation}
         \ket{k} = \frac{1}{\sqrt{N}} \sum_j e^{ikj} \ket{j} 
     \end{equation}
@@ -58,20 +72,30 @@
         E(k) = 2\gamma \cos(ka)
     \end{equation}
     
-    \section{Modelo Su-Schrieffer-Heeger (SSH)}
+\section{Modelo Su-Schrieffer-Heeger (SSH)}
     
 
-El modelo de Su-Schrieffer-Heeger (SSH) es un modelo de amarre fuerte (TB) que describe un electrón sin espín en una celda unitaria con dos sitios en un red unidimensional, un sitio etiquetado por A y otro por B. Las interacciones entre los electrones no son consideradas y la dinámica de los electrones esta descrita por el Hamiltoniano de una sola partícula (eq) : 
+El modelo de Su-Schrieffer-Heeger (SSH) es un modelo de amarre fuerte (TB) que describe un electrón sin espín en una celda unitaria con dos sitios en un red unidimensional, un sitio etiquetado por $A$ y otro por $B$ (fig \ref{fig:SSH_Fig}). Las interacciones entre los electrones no son consideradas y la dinámica de los electrones esta descrita por el Hamiltoniano de una sola partícula (\ref{eq:Hamiltonian_ssh}).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Imagenes/Models/SSH_example.pdf}\vspace{-1.5cm}
+    \caption{Modelo SSH para una cadena de poliacetileno, con una calda unitaria conformada por dos sitios $A$ y $B$, conectadas por parametros de salto intracelda ($\gamma$) e intercelda ($\lambda$)}
+    \label{fig:SSH_Fig}
+\end{figure}
+
 
 \begin{equation}
+    \label{eq:Hamiltonian_ssh}
     H = \gamma \sum_{i=1}^N (\ket{i,A}\bra{i,B} \,+\, h.c. ) + \lambda \sum_{i=1}^{N-1} (\ket{i + 1,A}\bra{i,B} \,+\, h.c. ) 
 \end{equation}
 
-Donde $\bra{i,A}$ y $\bra{i,B}$ denotan el estado de la cadena donde el electrón se encuentra en el i-sima celda , con $i \in {1,2,...,N}$, y en el sitio A o B, respectivamente. El sumando $h.c.$ representa el hermitiano conjugado.
+Donde $\bra{i,A}$ y $\bra{i,B}$ denotan el estado de la cadena donde el electrón se encuentra en el i-sima celda , con $i \in {1,2,...,N}$ y en el sitio $A$ o $B$, respectivamente. El parametro de salto intracelda esta dado por $\gamma$ y el intertcelda por $\gamma$. El sumando $h.c.$ representa el hermitiano conjugado.
 
-La matriz del modelo SSH para una cadena con $N = 4$ celdas unitarias en el espacio real, se ve como (eq):
+La matriz del modelo SSH para una cadena con $N = 4$ celdas unitarias en el espacio real, se ve como la ecuación \ref{eq:Hamiltonian_ssh_real}.
 
 \begin{equation}
+    \label{eq:Hamiltonian_ssh_real}
     H = 
      \begin{pmatrix}
             0 & \gamma & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -95,6 +119,7 @@ Suponiendo que nuestro sistema tiene periodicidad posicional, podemos utilizar e
 de tal forma que la ecuación de Shrödringer definida por el hamiltoniano escrito en el espacio de momentos para el cuerpo de la cadena, esta dado por:
 
 \begin{equation}
+    \label{eq:Hamiltonian_ssh_bloch}
     H =      
      \begin{pmatrix}
             0 & \gamma + \lambda e^{-ik}  \\
@@ -118,28 +143,24 @@ Esta forma simplifica mucho el calculo de los invariantes topológicos que defin
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/bands_shh.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_ssh.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/loop_shh.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/winding_shh.pdf}
-         \label{}
      \end{subfigure}
-        \caption{Three simple graphs}
-        \label{fig:three graphs}
+        \caption{\textbf{(a)} Variación del espectro de energias conforme cambian los parámetros de salto $\gamma/\lambda$. \textbf{(b)} Proyección de la densidad de probabilidad de los estados de borde en la fase topológica (rojo) y en la fase trivial (azul). \textbf{(c)} Representación grafica del número de Winding con valor $1$ en fase topológica (rojo) y $0$ en la fase trivial (azul). \textbf{(d)} Fase de Berry dependiente de los parametros de salto $\gamma/\lambda$ con valor $1$ en fase topológica (rojo) y $0$ en la fase trivial (azul)}.
+        \label{fig:SSH_Img_Results}
 \end{figure}
 
-Al resolver el sistema de la ecuación (eq) obtenemos los resultados de la figura (2.1), en a) tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas azules son las energías del cuerpo o bulto de la cadena y las lineas rojas muestran las energías de borde que aparecen debido a la finitud de la cadena. Notemos que que para valores cercanos a cero las energías de borde se acercan a cero, a este caso de estados de energía sin brecha, se le conoce como estados topológicos o fase topológica, al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real (fig 2.6 b)), obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización en el material, por otro lado, para el los parámetros $\gamma/\lambda > 1$ se puede ver que la densidad de estados esta distribuida uniforme mente en el material, como un aislante común, a este estado se le conoce como fase trivial.
+Al resolver el sistema de los hamiltonianos (\ref{eq:Hamiltonian_ssh_real}) y (\ref{eq:Hamiltonian_ssh_bloch}) obtenemos los resultados de la figura (\ref{fig:SSH_Img_Results}), en \textbf{(a)} tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas negras corresponden a las energías del cuerpo o bulto de la cadena y las lineas rojas con azul muestran las energías de borde que aparecen debido a la finitud de la cadena y son las energias mas cercanas a la energia de Fermi, Notemos que para los parametros de salto $|\gamma/\lambda|<1$ las energías de los estados de borde se localizan en la energía de Fermi, a estos estados se le conoce como estados topológicos o fase topológica, al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real (fig \ref{fig:SSH_Img_Results} \textbf{(b)}, obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización de la cadena, por otro lado, para el los parámetros $|\gamma/\lambda| > 1$ se puede ver en la proyección de los estados de borde la densidad de probabilidad esta distribuida uniformemente en la cadena, como un aislante común, a este estado se le conoce como fase trivial.
 
 Una forma de estudiar el comportamiento de los estados topológicos y triviales de esta cadena, es a través de la información que se puede obtener de la relación de dispersión. 
 
@@ -321,25 +342,21 @@ Está cantidad será la central en el calculo de invariantes topológicos en est
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/bands_shh_pump.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/loop_pump_ssh.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/winding_shh_pump.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/wannier_center_shh_pump.pdf}
-         \label{}
      \end{subfigure}
         \caption{Three simple graphs}
-        \label{fig:three graphs}
+        \label{fig:Pump_example_Results}
 \end{figure}
 
 Una de las aplicaciones mas interesantes de la fase de Berry es demostrar que el cambio lento de los parámetros temporales en un solido 1-dimensional puede generar transporte o bombeo de cargas después de recorrer un ciclo.
@@ -398,25 +415,21 @@ Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_1.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_2.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_3.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.9em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_4.pdf}
-         \label{}
      \end{subfigure}
         \caption{Three simple graphs}
-        \label{fig:three graphs}
+        \label{fig:Fractals}
 \end{figure}
 
 Hemos observado que las propiedades electrónicas de los materiales que estudiamos depende casi totalmente de las propiedades geométricas que lo definen. La relaciones y la separación entre los estados de borde y de bulto, permiten construir estados de polarización así como hacer un seguimiento del bombeo de las cargas en parámetros cíclicos. Pero, que pasaría si las geometrías de los materiales, tienen mas de un borde o la idea de la relación cuerpo-borde o área y perímetro se pierden? 
