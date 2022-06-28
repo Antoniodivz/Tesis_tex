@@ -104,7 +104,7 @@ Debido a las limitantes computacionales el estudio de este sistema se fijo en la
 
 \subsection{Centros de Wannier en el espacio real}
 
-Uno de los problemas principales al momento de calcular las cantidades topológicas como la fase de Berry en estructuras geométricas como los fractales es la falta de periodicidad en el sistema, lo cual no permite tener un hamiltoniano de Bloch que nos permita usar las expresiones \ref{eq:Barry_fase} para calcular la fase de Berry. Afortunadamente existen otras formas de construir este invariante sin necesidad de usar funciones de Bloch, y es a través del operador de posición, este nos permite extraer los centros de Wannier como eigenvalores de una cantidad llamada Wilson loop, esta forma es numéricamente estable y además es invariante de norma [\cite{Asboth2015}].
+Uno de los problemas principales al momento de calcular las cantidades topológicas como la fase de Berry en estructuras geométricas como los fractales es la falta de periodicidad en el sistema, lo cual no permite tener un hamiltoniano de Bloch que nos permita usar las expresiones \ref{eq:Barry_fase} para calcular la fase de Berry. Afortunadamente existen otras formas de construir este invariante sin necesidad de usar funciones de Bloch, y es a través del operador de posición, este nos permite extraer los centros de Wannier como eigenvalores de una cantidad llamada Wilson loop, esta forma es numéricamente estable y además es invariante de norma \cite{Asboth2015}.
 
 Consideremos una cadena con $N$ elementos y largo $L$ con condiciones periódicas a la frontera, su operador de posición unitario estará dado por:
 \begin{equation}
@@ -162,15 +162,12 @@ Obteniendo como resultado final, la expresión de los centros de wanier asociado
 \subsection{Bombeo en un red cuadrada y en una alfombra de Sierpinski}
 
 \input{Images_Models/Image_Model_pump}
+Como se mencionó en la introducción existen trabajos recientes que muestran que las propiedades de transporte en aislantes topológicos de pueden presentar con estados protegidos por invariantes como el numero de Chern. En el articulo (High order topological pump), Benalcazar at al. muestran estas propiedades en un arreglo experimental con guías de ondas. Inspirados en esta idea decidimos introducir parámetros cíclicos similares a los de las guía de onda propuestos en este articulo en nuestro modelo del Hoti cuadrado y fractal.
 
-Como se menciono en la introducción existen trabajos recientes que muestran que las propiedades de transporte en aislantes topológicos de pueden presentar con estados protegidos por invariantes como el numero de Chern. En el articulo (High order topological pump), Benalcazar at al. muestran estas propiedades en un arreglo experimental con guías de ondas. Inspirados en esta idea decidimos introducir parámetros cíclicos similares a los de las guía de onda propuestos en este articulo en nuestro modelo del Hoti cuadrado y fractal.
+\begin{align}
+    \nonumber\gamma \rightarrow \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(1 - A \cos \theta )} \; &,\;  \lambda \rightarrow \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( 1 + A \cos \theta )} \;,\; \\  \epsilon(\theta) &= \epsilon_0 \sin \theta
+\end{align}
 
-In the conventional Thouless pump [26, 33], an insulator with discrete translation symmetry adiabatically
-evolves in a periodic fashion leading to a quantization
-of the electron transport per cycle. The transport can be
-tracked by following the dipole moment in a crystal as the
-cycle progresses [34]. The change of the dipole moment
-over a cycle is a topologically-protected integer equal to
-the Chern number of the energy bands calculated in the
-2D manifold spanned by the crystal momentum and the
-adiabatic parameter over that cycle [28].
+
+
+%\comA{In the conventional Thouless pump [26, 33], an insulator with discrete translation symmetry adiabatically evolves in a periodic fashion leading to a quantization of the electron transport per cycle. The transport can be tracked by following the dipole moment in a crystal as the cycle progresses [34]. The change of the dipole moment over a cycle is a topologically-protected integer equal to the Chern number of the energy bands calculated in the 2D manifold spanned by the crystal momentum and the adiabatic parameter over that cycle [28].}
