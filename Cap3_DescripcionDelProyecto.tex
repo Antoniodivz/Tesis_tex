@@ -25,7 +25,7 @@ Particularmente, en los sistemas de geometría 2-dimensional se ha observados qu
 
 \subsection{Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}\label{Modelo_SSH_squara_and_Fractal}
 
-    Notemos que la idea del modelo de SSH se puede extender de manera sencilla, en algunos casos, en 2 dimensiones, como lo es para una red cristalina cuadrada. Supongamos que tenemos una red cristalina cuadrada, con 16 sitios y 4 subredes o celdas unitarias, cada una compuesta por 4 sitios como se ve en la fig( agregar fig), con $\gamma$ y $\lambda$ los parámetros de salto, intracelda e intercelda, respectivamente. Siguiendo el modelo de SSH el hamitoniano de este sistema estará dado la matriz de conexión definida como: 
+    Notemos que la idea del modelo de SSH se puede extender de manera sencilla, en algunos casos de 2 dimensiones, como lo es para una red cristalina cuadrada. Supongamos que tenemos una red cristalina cuadrada con 16 sitios y 4 redes unitarias (fig \ref{fig:Models} \textbf{(b)}) o celdas unitarias, cada una compuesta por 4 sitios como se ve en la (fig \ref{fig:Models} \textbf{(a)}), con $\gamma$ y $\lambda$ los parámetros de salto, intracelda e intercelda, respectivamente, con la particularidad de que cada que se pasa por la linea punteada el parametro de salta gana una fase de $-\pi$, por lo que nuestro sistema estaria compuesto, en las secciones horizontales, por cadenas de SSH en dirección positiva y dirección negativa intercaladas, y en la sección horizaontalen dir Siguiendo el modelo de SSH el hamitoniano de este sistema estará dado la matriz de conexión definida como la ecuación \ref{eq:BBH_Model_real} 
     
     
     \begin{figure}[h!]
@@ -35,28 +35,24 @@ Particularmente, en los sistemas de geometría 2-dimensional se ha observados qu
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Models/unitary_cell.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.5em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Models/square_hoti_model4.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.3em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Models/square_hoti_model.pdf}
-         \label{}
      \end{subfigure}\hspace*{-0.3em}
      \begin{subfigure}[b!]{0.27 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Models/fractal_hoti_model.pdf}
-         \label{}
      \end{subfigure}
      
         \caption{\textbf{(a)} Celda unitaria de 4 sitios. \textbf{(b)} Red cristalina cuadrada de 4 celdas con 16 sitios. \textbf{(c)} Red cristalina cuadara conformada por 9x9 celdas y 18x18 sitios. \textbf{(d)} Red fractal conformada por 72 celdas y 288 sitios. }
-        \label{fig:three graphs}
+        \label{fig:Models}
 \end{figure}
-    
+    \label{eq:BBH_Model_real}
     \begin{equation} 
          H = 
      \begin{pmatrix}
@@ -84,29 +80,31 @@ Particularmente, en los sistemas de geometría 2-dimensional se ha observados qu
     \end{equation}
     
      
-    Como podemos notar, las matrices que describen a estos sistemas son matrices de conexión por lo tanto es una matriz simétrica, de igual forma que en el caso uni-dimensional, es posible suponer condiciones periódicas a las frontera y obtener la matriz expresada en el espacio de momentos:
+    Como podemos notar, las matrices que describen a estos sistemas son matrices de conexión por lo tanto es una matriz simétrica, de igual forma que en el caso uni-dimensional, es posible suponer condiciones periódicas a las frontera y obtener la matriz expresada en el espacio de momentos (eq.\ref{eq:BBH_Model_bloch}).
     
     \begin{equation}
+    \label{eq:BBH_Model_bloch}
     H =      
      \begin{pmatrix}
-            0 & \gamma + \lambda e^{-ik_x} & 0 &  \gamma + \lambda e^{-ik_y} \\
-             \gamma + \lambda e^{ik_x} & 0 &  \gamma + \lambda e^{-ik_y} & 0  \\
-            0 & \gamma + \lambda e^{ik_y} & 0 &  \gamma + \lambda e^{ik_x} \\
-             \gamma + \lambda e^{ik_y} & 0 &  \gamma + \lambda e^{-ik_x} & 0  \\
+            0 & -\gamma - \lambda e^{-ik_x} & \gamma + \lambda e^{-ik_y} &  0 \\
+             -\gamma - \lambda e^{ik_x} & 0 &  0 & \gamma + \lambda e^{-ik_y}  \\
+             \gamma + \lambda e^{ik_y} & 0 & 0 &  \gamma + \lambda e^{-ik_x} \\
+             0 & \gamma + \lambda e^{ik_y} &  \gamma + \lambda e^{ik_x} & 0  \\
      \end{pmatrix} 
     \end{equation}
 
-Donde $k_x$ y $k_y$ son las proyecciones del vector $\mathbf{k}$ de momentos sobre las direcciones $\mathbf{x}$ y $\mathbf{y}$, es decir, $\mathbf{k} = (k_x, k_y)$  
+Donde $k_x$ y $k_y$ son las proyecciones del vector $\mathbf{k}$ de momentos sobre las direcciones $\mathbf{x}$ y $\mathbf{y}$, es decir, $\mathbf{k} = (k_x, k_y)$ este modelo se le conoce como modelo BBH (Benalcazar, Bernevig y Hughes). 
 
 
-Ahora ¿Cómo implementamos la idea del HOTI cuadrado con el modelo de SSH 2D en nuestra en una alfombra de Sierpinski? Una de las primeras cosas es notar como es el proceso iterativo de la construcción de una alfombra de Sierpinski, este proceso se describe la sección (poner sección), para esta construcción se comenzó con un cuadrado inicial compuesto por 9 celdas unitarias y 36 sitos, a este cuadrado se le extrae la celda unitaria del centro, esta idea sea itera N veces obteniendo la red fractal que esperamos (figura de iteraciones), a diferencia del escalamiento que se observa en la construcción común de un fractal, para mantener las celdas con el mismo tamaño es necesario hacer el sistema cada vez mas grande. 
-El hamitoniano que describe a este sistema estará dado por la matriz de conexión (figura matriz de conexión), sin embargo, dado que este sistema no tiene simetría traslación sobre la celda unitaria no es posible tener un hamiltoniano de Bloch que nos permita encontrar la solución en el espacio reciproco y así estudiar las propiedades electrónicas de las que nos podría proveer la teoría de bandas.
+Ahora ¿Cómo implementamos la idea del HOTI cuadrado con el modelo de BBH en nuestra en una alfombra de Sierpinski? Una de las primeras cosas es notar como es el proceso iterativo de la construcción de una alfombra de Sierpinski, este proceso se describe la sección \ref{sc:Fractales}, para esta construcción se comenzó con un red crsitalina cuadrada inicial compuesta por 9 celdas unitarias y 36 sitos, a este cuadrado se le extrae la celda unitaria del centro, obteniendo una red como la de la figura \ref{fig:Fractals} \textbf{(b)}, esta idea sea itera $N=2$ veces obteniendo la red fractal que esperamos (fig. \ref{fig:Fractals} \textbf{(c)} y fig. \ref{fig:Models} \textbf{(d)} ), a diferencia del escalamiento que se observa en la construcción común de un fractal (fig. \ref{fig:Models}), para mantener las celdas con el mismo tamaño es necesario hacer el sistema cada vez mas grande. 
 
-Debido a las limitantes computacionales el estudio de este sistema se fijo en la segunda  iteración ($N=2$) en la construcción del la alfombra de Sierpinski con (tantos) sitios y el modelo de la red cuadrada se limito a un cuadrado compuesto por 81 celdas y 324 sitios (figura matriz de conexión). 
+El hamitoniano que describe a este sistema estará dado por la matriz de conexión, sin embargo, dado que este sistema no tiene simetría traslación sobre la celda unitaria no es posible tener un hamiltoniano de Bloch que nos permita encontrar la solución en el espacio reciproco y así estudiar las propiedades electrónicas de las que nos podría proveer la teoría de bandas.
+
+Debido a las limitantes computacionales el estudio de este sistema se fijo en la segunda  iteración ($N=2$) en la construcción del la alfombra de Sierpinski con 72 celdas y 288 sitios y el modelo de la red cuadrada se limito a un cuadrado compuesto por 81 celdas y 324 sitios. 
 
 \subsection{Centros de Wannier en el espacio real}
 
-Uno de los problemas principales al momento de calcular las cantidades topológicas como la fase de Berry en estructuras geométricas como los fractales es la falta de periodicidad en el sistema, lo cual no permite tener un hamiltoniano de Bloch que nos permita usar las expresiones (agregar ecuaciones de la fase de Berry continua). Afortunadamente existen otras formas de construir este invariante sin necesidad de usar funciones de Bloch, y es a través del operador de posición, este nos permite extraer los estados sobre los cuales sumaremos las contribuciones de la fase, esta forma es numéricamente estable y además es invariante de norma (referencia A short Course).
+Uno de los problemas principales al momento de calcular las cantidades topológicas como la fase de Berry en estructuras geométricas como los fractales es la falta de periodicidad en el sistema, lo cual no permite tener un hamiltoniano de Bloch que nos permita usar las expresiones \ref{eq:Barry_fase} para calcular la fase de Berry. Afortunadamente existen otras formas de construir este invariante sin necesidad de usar funciones de Bloch, y es a través del operador de posición, este nos permite extraer los centros de Wannier como eigenvalores de una cantidad llamada Wilson loop, esta forma es numéricamente estable y además es invariante de norma [\cite{Asboth2015}].
 
 Consideremos una cadena con $N$ elementos y largo $L$ con condiciones periódicas a la frontera, su operador de posición unitario estará dado por:
 \begin{equation}

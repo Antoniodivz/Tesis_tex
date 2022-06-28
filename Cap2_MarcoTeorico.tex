@@ -311,7 +311,7 @@ A diferencia de las funciones de Bloch que están deslocalizadas en el espacio l
 realidad de que la densidad de carga en un sólido es una función continua, la idea de que esta puede estar localizada nos permitirá continuar calculando los momentos dipolares sumando sobre cargas multiplicadas por posiciones (Ahora tenemos una manera conveniente de tomar las celdas que permitan esto).
 Para esto primero suponemos que la concentración de electrones esta al rededor de la función de Wannier, a esta "posición" de la función de wannier se les llama ``Centros de Wannier", $\overline{\textbf{r}}$ y se calcula como el valor esperado de la posición:
 \begin{equation}
-\label{Wcenter}
+\label{eq:Wcenter}
 \begin{split}
         \overline{\textbf{r}} &= \sandwich{w_n}{\textbf{r}}{w_n}\\
         &= \int w^*_n(\textbf{r})\,\textbf{r}\, w_n(\textbf{r})\, d^3\textbf{r}
@@ -330,7 +330,7 @@ Con el concepto de los centros de Wannier, ahora, la expresión para la polariza
 
 Es importante recalcar que el segundo termino en la polarización es mejor conocido como como la fase de Berry:
 \begin{equation}
-    \label{Barry_fase}
+    \label{eq:Barry_fase}
     \sum_n^{occ}\int_{BZ} d^3\textbf{k}\,e^{-i\textbf{k}\cdot\textbf{R}}\braket{u_{n\textbf{k}}}{\frac{\partial u_{n\textbf{k}} }{\partial\textbf{k}}}
 \end{equation}
 Está cantidad será la central en el calculo de invariantes topológicos en estados de polarización que definen a un aislante topológico de alto orden. 
@@ -438,6 +438,7 @@ Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los
 
 
 \section{Fractales (Sierpinsky Carpet)}
+\label{sc:Fractales}
 
 \begin{figure}[h!]
      \centering
