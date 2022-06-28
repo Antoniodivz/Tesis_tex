@@ -265,7 +265,7 @@ Si nos tomamos todas las posibles elecciones de celdas llegaremos a la conclusi�
 
 \begin{equation}
     \label{eq:pol_gral1d}
-    P = P_o + nq\,\,  {\rm con} \,\,n \in \mathbb{Z}\,\, text{para el caso 1D} 
+    P = P_o + nq\,\,  {\rm con} \,\,n \in \mathbb{Z}\,\, \text{para el caso 1D} 
 \end{equation}
 
 \begin{equation}
@@ -275,9 +275,7 @@ Si nos tomamos todas las posibles elecciones de celdas llegaremos a la conclusi�
 
 Donde $P_o$ es la polarización electrónica cuando se escoge convenientemente una celda centrosimétrica, $q$ es la carga de los iones, $R$ es la magnitud del vector de la celda y V es el volumen de la celda.
 
-Como podemos notar, la polarización está multivaluada para diferentes elecciones de celda, donde la polarización difiere entre si en un termino $P_q = \frac{qR}{V}$ el cual es conocido como \textit{``cuanto de polarización''}, sin embargo este ejemplo es para un para un arreglo cistalino no polar, es decir, todos las moléculas están igual espaciadas. 
-
-Ahora supongamos que tenemos un caso polar como se muestra en la (figura), nuevamente obtenemos que para la elección de celda de la (figura a)) la polarización es $P_1 = \frac{ed}{V}$ y que para la elección de celda de la (fig b)) $P_2 = \frac{ed}{V} - \frac{ea}{V}$, nuevamente obtenemos que la polarización es multivaluada y se diferencian por un cuanto de polarización.
+Como podemos notar, la polarización está multivaluada para diferentes elecciones de celda, donde la polarización difiere entre si en un termino $P_q = \frac{qR}{V}$ el cual es conocido como \textit{``cuanto de polarización''}.
 
 ¿Pero que significa esta cantidad? Imaginemos que en nuestro sistema se mueve un electrón de un anión de una celda a otra, ¿Cómo cambia la polarización debido al transporte de carga? La respuesta es $\Delta P = \frac{-ea}{V}$, es decir, como consecuencia de la periodicidad del sistema, el mover un electrón de una celda a otra deja a el sistema físico exactamente igual, pero a la polarización no.
 
@@ -360,8 +358,8 @@ Está cantidad será la central en el calculo de invariantes topológicos en est
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/wannier_center_shh_pump.pdf}
      \end{subfigure}
-        \caption{Three simple graphs}
-        \label{fig:Pump_example_Results}
+     \caption{\textbf{(a)} Variación del espectro de energias conforme cambia el parametro ciclico $\theta$. \textbf{(b)} Representacion grafica del número de Winding en la fase topológica (rojo) y en la fase trivial (azul). \textbf{(c)}Fase de Berry dependiente de los parametros de salto $\gamma/\lambda$ con valor $1$ en fase topológica (rojo) y $0$ en la fase trivial (azul) .\textbf{(d)} cambio del valor esperado o centros de wannier conforme varia el parametro ciclico.}
+    \label{fig:Pump_example_Results}
 \end{figure}
 
 Una de las aplicaciones mas interesantes de la fase de Berry es demostrar que el cambio lento de los parámetros temporales en un solido 1-dimensional puede generar transporte o bombeo de cargas después de recorrer un ciclo.
@@ -380,7 +378,7 @@ Consideremos el hamiltoniano de SSH del modelo anterior, con una pequeña modifi
     \nonumber\gamma \rightarrow \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(-A \cos \theta - 1)} \; &,\;  \lambda \rightarrow \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( A \cos \theta - 1 )} \;,\; \\  \epsilon(\theta) = \epsilon_0 \sin \theta
 \end{align}
 
-Con $\delta$ suficientemente pequeño.
+Con $\epsilon_0$ suficientemente pequeño.
 
 De tal forma que el nuevo modelo estará descrito por el siguiente hamiltoniano de Bloch:
 \begin{equation}
@@ -406,9 +404,37 @@ Y el hamiltoniano en el espacio real, para una cadena con 4 celdas unitarias:
         \end{pmatrix}
 \end{equation}
 
-En la figura() a), b) y c) se pueden observar diferentes formas de observar la transición de fase entre fase topológica y trivial, en la figura () a), se puede ver como en el espectro de bandas el comportamiento de las energías de los estados de borde cambian de tener un gap amplio, es decir una fase trivial, a tener una brecha energética nula o una fase topológica, podemos seguir este cambio a través del numero de winding, en la figura b) como los círculos que forman la relación de dispersión pasan de rodear el origen a no hacerlo, en la figura c) se puede observar un cambio mas abrupto en la transición de fase no trivial, pues este caracteriza la fase que la ecuación de onda gana cuando se recorre un ciclo por la zona de brilluan, esto determina que hay valores en la variación temporal en los que el material ganara una fase y hay otros en los que no. Por ultimo, Si nuestro material gana una fase y traiciona de estado a estado después de en un ciclo, existe un cambio en el? La respuesta es si, a pesar de que el hamiltoniano del material no haya cambiado después de el ciclo, los eigenestados si cambiaron y esto se ve reflejado en un bombeo de cargar a través de la cadena.
+En la figura \ref{fig:Pump_example_Results} \textbf{(a)}, \textbf{(b)} y \textbf{(c)} se pueden observar diferentes formas de observar la transición de fase entre fase topológica y trivial, en fig.\ref{fig:Pump_example_Results} \textbf{(a)}, se puede ver como en el espectro de bandas el comportamiento de las energías de los estados de borde cambian de tener un gap amplio, es decir una fase trivial, a tener una brecha energética nula o una fase topológica, podemos seguir este cambio a través del numero de winding, en la fig.\ref{fig:Pump_example_Results} \textbf{(b)} como los círculos que forman la relación de dispersión pasan de rodear el origen a no hacerlo, en la fig.\ref{fig:Pump_example_Results} \textbf{(c)} se puede observar un cambio mas abrupto en la transición de fase no trivial, pues este caracteriza la fase que la ecuación de onda gana cuando se recorre un ciclo por la zona de brilluan, esto determina que hay valores en la variación temporal en los que el material ganara una fase y hay otros en los que no. Por ultimo, Si nuestro material gana una fase y traiciona de estado a estado después de en un ciclo, existe un cambio en el? La respuesta es si, a pesar de que el hamiltoniano del material no haya cambiado después de el ciclo, los eigenestados si cambiaron y esto se ve reflejado en un bombeo de cargar a través de la cadena.
 
-Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los centros de wannier de cada celda, si existe un desplazamiento de este centro de celda a celda, la fase que gana nuestro sistema después de un ciclo, se puede interpretar como el desplazamiento de cargas de una celda a otra lo que denotaría que existe un bombeo y como vimos en el capitulo anterior, la corriente generada por este bombeo propicia un estado de polarización en el material, el cual se puede observar cuando proyectamos los estados de las energías centrales de figura a) en el espacio real, fig().
+\begin{figure}[h!]
+    \centering
+   \captionsetup[sub]{font=small}
+
+    \begin{subfigure}[b!]{0.2 \textwidth}
+        \caption*{$\theta=-\pi$}
+        \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_0.pdf}
+    \end{subfigure}\hspace*{-0.9em}
+    \begin{subfigure}[b!]{0.2 \textwidth}
+        \caption*{$\theta=-\frac{\pi}{2}$}
+        \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_1.pdf}
+    \end{subfigure}\hspace*{-0.9em}
+    \begin{subfigure}[b!]{0.2 \textwidth}
+        \caption*{$\theta=0$}
+        \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_2.pdf}
+    \end{subfigure}\hspace*{-0.9em}
+    \begin{subfigure}[b!]{0.2 \textwidth}
+        \caption*{$\theta=\frac{\pi}{2}$}
+        \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_3.pdf}
+    \end{subfigure}\hspace*{-0.9em}
+    \begin{subfigure}[b!]{0.2 \textwidth}
+        \caption*{$\theta=\pi$}
+        \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_4.pdf}
+    \end{subfigure}
+       \caption{Proyección de los estados correspondientes a las energias negativas mas cernas a los estados de Fermi para distintos valores de $\theta \in [-\pi, \pi]$. }
+    \label{fig:pump_RM_proyection}
+\end{figure}
+
+Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los centros de wannier de cada celda, si existe un desplazamiento de este centro de celda a celda, la fase que gana nuestro sistema después de un ciclo, se puede interpretar como el desplazamiento de cargas de una celda a otra lo que denotaría que existe un bombeo y como vimos en el capitulo anterior, la corriente generada por este bombeo propicia un estado de polarización en el material, el cual se puede observar cuando proyectamos los estados de las energías centrales de \ref{fig:Pump_example_Results} \textbf{(a)} en el espacio real, fig(\ref{fig:pump_RM_proyection}).
 
 
 \section{Fractales (Sierpinsky Carpet)}
@@ -433,7 +459,7 @@ Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_4.pdf}
      \end{subfigure}
-        \caption{Three simple graphs}
+        \caption{Procedimiento para generar una red o alfombra de Sierpinski, conforme aumentan las iteraciones, \textbf{(a)} $n=0$, \textbf{(b)} $n=1$, \textbf{(c)} $n=2$,\textbf{(d)} $n=3$.}
         \label{fig:Fractals}
 \end{figure}
 
@@ -442,7 +468,7 @@ Hemos observado que las propiedades electrónicas de los materiales que estudiam
 Una de las geometrías mas interesantes que cumplen estas características son las fractales, construcciones geométricas que se basan en la realización iterativa y poseen propiedades como la dimensión no entera, y la autosemejanza. Para los fines de este trabajo nos concentraremos en la alfombra de Sierpinski, el cual es un fractal descrito por el matemático polaco Waclaw Sierpinski en 1916. Se construye dividiendo un cuadrado en otros nueve de lado 1/3 del original y eliminando el cuadrado que ocupa la posición central, repitiendo este proceso en cada uno de los cuadrados que
 quedan, indefinidamente.
 
-En cada iteración el numero de huecos cuadrados va aumentando de la siguiente manera:
+En cada iteración el numero de huecos cuadrados va aumentando de la siguiente manera (fig \ref{fig:Fractals}):
 \begin{equation}
     1,\; 8, \; 8^2,\;\dots\; 8^n
 \end{equation}
@@ -453,7 +479,7 @@ respectivamente, cada lado del cuadrado escala como un tercio del anterior:
 como resultado se obtiene así un objeto geométrico “hueco” de área nula pero con perímetro infinito. Al calcular su dimensión obtenemos:
 
 \begin{equation}
-    D = \frac{log N(r)}{log 1/r} = \frac{log 8}{log 3} = 1.8927
+    D = \frac{log N(r)}{log 1/r} = \frac{log 8^n}{log 3^n} = 1.8927
 \end{equation}
 
 Donde $N(r)$ es el numero de figuras que se generan por iteración y $r$ es la relación de escala de cada lado por cada iteración.

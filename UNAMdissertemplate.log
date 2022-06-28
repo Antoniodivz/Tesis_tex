@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.26)  24 JUN 2022 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.4.26)  27 JUN 2022 21:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -675,10 +675,7 @@ pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/proyection_ssh.pdf): PDF in
 > <./Imagenes/Shh_images/loop_shh.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/loop_shh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Imagenes/Shh_images/winding_shh.pdf
-
-pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/winding_shh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+> <./Imagenes/Shh_images/winding_shh.pdf>]
 
 LaTeX Warning: Citation `Asboth2015' on page 10 undefined on input line 178.
 
@@ -739,86 +736,129 @@ LaTeX Warning: Reference `eq:pol_gral3d' on page 14 undefined on input line 264.
 LaTeX Info: Redefining \. on input line 269.
 LaTeX Info: Redefining \% on input line 269.
 [14 <./Imagenes/Models/polarizatio_example_a.pdf> <./Imagenes/Models/polarizatio_example_b.pdf>]
-LaTeX Info: Redefining \. on input line 292.
-LaTeX Info: Redefining \% on input line 292.
+LaTeX Info: Redefining \. on input line 293.
+LaTeX Info: Redefining \% on input line 293.
  [15]
-LaTeX Info: Redefining \. on input line 310.
-LaTeX Info: Redefining \% on input line 310.
+LaTeX Info: Redefining \. on input line 313.
+LaTeX Info: Redefining \% on input line 313.
  [16]
 
-LaTeX Warning: Reference `Wcenter' on page 17 undefined on input line 322.
+LaTeX Warning: Reference `Wcenter' on page 17 undefined on input line 320.
 
-LaTeX Info: Redefining \. on input line 331.
-LaTeX Info: Redefining \% on input line 331.
-[17]
-<Imagenes/Shh_images/bands_shh_pump.pdf, id=214, 433.62pt x 361.35pt>
+<Imagenes/Shh_images/bands_shh_pump.pdf, id=211, 433.62pt x 361.35pt>
 File: Imagenes/Shh_images/bands_shh_pump.pdf Graphic file (type pdf)
 <use Imagenes/Shh_images/bands_shh_pump.pdf>
-Package pdftex.def Info: Imagenes/Shh_images/bands_shh_pump.pdf  used on input line 349.
+Package pdftex.def Info: Imagenes/Shh_images/bands_shh_pump.pdf  used on input line 347.
 (pdftex.def)             Requested size: 117.07925pt x 97.5658pt.
-<Imagenes/Shh_images/loop_pump_ssh.pdf, id=215, 433.62pt x 361.35pt>
+<Imagenes/Shh_images/loop_pump_ssh.pdf, id=212, 433.62pt x 361.35pt>
 File: Imagenes/Shh_images/loop_pump_ssh.pdf Graphic file (type pdf)
 <use Imagenes/Shh_images/loop_pump_ssh.pdf>
-Package pdftex.def Info: Imagenes/Shh_images/loop_pump_ssh.pdf  used on input line 353.
+Package pdftex.def Info: Imagenes/Shh_images/loop_pump_ssh.pdf  used on input line 351.
 (pdftex.def)             Requested size: 117.07925pt x 97.5658pt.
-<Imagenes/Shh_images/winding_shh_pump.pdf, id=216, 433.62pt x 361.35pt>
+<Imagenes/Shh_images/winding_shh_pump.pdf, id=213, 433.62pt x 361.35pt>
 File: Imagenes/Shh_images/winding_shh_pump.pdf Graphic file (type pdf)
 <use Imagenes/Shh_images/winding_shh_pump.pdf>
-Package pdftex.def Info: Imagenes/Shh_images/winding_shh_pump.pdf  used on input line 357.
+Package pdftex.def Info: Imagenes/Shh_images/winding_shh_pump.pdf  used on input line 355.
 (pdftex.def)             Requested size: 117.07925pt x 97.5658pt.
-<Imagenes/Shh_images/wannier_center_shh_pump.pdf, id=217, 433.62pt x 361.35pt>
+<Imagenes/Shh_images/wannier_center_shh_pump.pdf, id=214, 433.62pt x 361.35pt>
 File: Imagenes/Shh_images/wannier_center_shh_pump.pdf Graphic file (type pdf)
 <use Imagenes/Shh_images/wannier_center_shh_pump.pdf>
-Package pdftex.def Info: Imagenes/Shh_images/wannier_center_shh_pump.pdf  used on input line 361.
+Package pdftex.def Info: Imagenes/Shh_images/wannier_center_shh_pump.pdf  used on input line 359.
 (pdftex.def)             Requested size: 117.07925pt x 97.5658pt.
 
-Overfull \hbox (10.81145pt too wide) in paragraph at lines 347--363
+Overfull \hbox (10.81145pt too wide) in paragraph at lines 345--361
  []$[]$|  $[]$|  $[]$|  $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 374.
-LaTeX Info: Redefining \% on input line 374.
-[18 <./Imagenes/Shh_images/bands_shh_pump.pdf> <./Imagenes/Shh_images/loop_pump_ssh.pdf
-
-pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/loop_pump_ssh.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Imagenes/Shh_images/winding_shh_pump.pdf
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
+[17]
+LaTeX Info: Redefining \. on input line 390.
+LaTeX Info: Redefining \% on input line 390.
+ [18 <./Imagenes/Shh_images/bands_shh_pump.pdf> <./Imagenes/Shh_images/loop_pump_ssh.pdf> <./Imagenes/Shh_images/winding_shh_pump.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/winding_shh_pump.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Imagenes/Shh_images/wannier_center_shh_pump.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Shh_images/wannier_center_shh_pump.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-LaTeX Info: Redefining \. on input line 410.
-LaTeX Info: Redefining \% on input line 410.
- [19]
-<Imagenes/Fractal/sierpinski_carpet_1.pdf, id=285, 433.62pt x 433.62pt>
+
+LaTeX Warning: Reference `fig:Pump_example_Results' on page 19 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:Pump_example_Results' on page 19 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:Pump_example_Results' on page 19 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:Pump_example_Results' on page 19 undefined on input line 407.
+
+<Imagenes/Shh_images/proyection_0.pdf, id=282, 433.62pt x 433.62pt>
+File: Imagenes/Shh_images/proyection_0.pdf Graphic file (type pdf)
+<use Imagenes/Shh_images/proyection_0.pdf>
+Package pdftex.def Info: Imagenes/Shh_images/proyection_0.pdf  used on input line 415.
+(pdftex.def)             Requested size: 86.72267pt x 86.72246pt.
+<Imagenes/Shh_images/proyection_1.pdf, id=283, 433.62pt x 433.62pt>
+File: Imagenes/Shh_images/proyection_1.pdf Graphic file (type pdf)
+<use Imagenes/Shh_images/proyection_1.pdf>
+Package pdftex.def Info: Imagenes/Shh_images/proyection_1.pdf  used on input line 419.
+(pdftex.def)             Requested size: 86.72267pt x 86.72246pt.
+<Imagenes/Shh_images/proyection_2.pdf, id=284, 433.62pt x 433.62pt>
+File: Imagenes/Shh_images/proyection_2.pdf Graphic file (type pdf)
+<use Imagenes/Shh_images/proyection_2.pdf>
+Package pdftex.def Info: Imagenes/Shh_images/proyection_2.pdf  used on input line 423.
+(pdftex.def)             Requested size: 86.72267pt x 86.72246pt.
+<Imagenes/Shh_images/proyection_3.pdf, id=285, 433.62pt x 433.62pt>
+File: Imagenes/Shh_images/proyection_3.pdf Graphic file (type pdf)
+<use Imagenes/Shh_images/proyection_3.pdf>
+Package pdftex.def Info: Imagenes/Shh_images/proyection_3.pdf  used on input line 427.
+(pdftex.def)             Requested size: 86.72267pt x 86.72246pt.
+<Imagenes/Shh_images/proyection_4.pdf, id=286, 433.62pt x 433.62pt>
+File: Imagenes/Shh_images/proyection_4.pdf Graphic file (type pdf)
+<use Imagenes/Shh_images/proyection_4.pdf>
+Package pdftex.def Info: Imagenes/Shh_images/proyection_4.pdf  used on input line 431.
+(pdftex.def)             Requested size: 86.72267pt x 86.72246pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:Pump_example_Results' on page 19 undefined on input line 437.
+
+
+LaTeX Warning: Reference `fig:pump_RM_proyection' on page 19 undefined on input line 437.
+
+LaTeX Info: Redefining \. on input line 438.
+LaTeX Info: Redefining \% on input line 438.
+[19]
+<Imagenes/Fractal/sierpinski_carpet_1.pdf, id=290, 433.62pt x 433.62pt>
 File: Imagenes/Fractal/sierpinski_carpet_1.pdf Graphic file (type pdf)
 <use Imagenes/Fractal/sierpinski_carpet_1.pdf>
-Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_1.pdf  used on input line 422.
+Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_1.pdf  used on input line 448.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Fractal/sierpinski_carpet_2.pdf, id=286, 433.62pt x 433.62pt>
+<Imagenes/Fractal/sierpinski_carpet_2.pdf, id=291, 433.62pt x 433.62pt>
 File: Imagenes/Fractal/sierpinski_carpet_2.pdf Graphic file (type pdf)
 <use Imagenes/Fractal/sierpinski_carpet_2.pdf>
-Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_2.pdf  used on input line 426.
+Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_2.pdf  used on input line 452.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Fractal/sierpinski_carpet_3.pdf, id=287, 433.62pt x 433.62pt>
+<Imagenes/Fractal/sierpinski_carpet_3.pdf, id=292, 433.62pt x 433.62pt>
 File: Imagenes/Fractal/sierpinski_carpet_3.pdf Graphic file (type pdf)
 <use Imagenes/Fractal/sierpinski_carpet_3.pdf>
-Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_3.pdf  used on input line 430.
+Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_3.pdf  used on input line 456.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Fractal/sierpinski_carpet_4.pdf, id=288, 433.62pt x 433.62pt>
+<Imagenes/Fractal/sierpinski_carpet_4.pdf, id=293, 433.62pt x 433.62pt>
 File: Imagenes/Fractal/sierpinski_carpet_4.pdf Graphic file (type pdf)
 <use Imagenes/Fractal/sierpinski_carpet_4.pdf>
-Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_4.pdf  used on input line 434.
+Package pdftex.def Info: Imagenes/Fractal/sierpinski_carpet_4.pdf  used on input line 460.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
 
-Overfull \hbox (10.81145pt too wide) in paragraph at lines 420--436
+Overfull \hbox (10.81145pt too wide) in paragraph at lines 446--462
  []$[]$|  $[]$|  $[]$|  $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 441.
-LaTeX Info: Redefining \% on input line 441.
-[20 <./Imagenes/Fractal/sierpinski_carpet_1.pdf> <./Imagenes/Fractal/sierpinski_carpet_2.pdf
+LaTeX Info: Redefining \. on input line 470.
+LaTeX Info: Redefining \% on input line 470.
+[20 <./Imagenes/Shh_images/proyection_0.pdf> <./Imagenes/Shh_images/proyection_1.pdf> <./Imagenes/Shh_images/proyection_2.pdf> <./Imagenes/Shh_images/proyection_3.pdf> <./Imagenes/Shh_images/proyection_4.pdf> <./Imagenes/Fractal/sierpinski_carpet_1.pdf> <./Imagenes/Fractal/sierpinski_carpet_2.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Fractal/sierpinski_carpet_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Imagenes/Fractal/sierpinski_carpet_3.pdf
@@ -827,48 +867,49 @@ pdfTeX warning: pdflatex (file ./Imagenes/Fractal/sierpinski_carpet_3.pdf): PDF 
 > <./Imagenes/Fractal/sierpinski_carpet_4.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Fractal/sierpinski_carpet_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->])
+>]
+
+LaTeX Warning: Reference `fig:Fractals' on page 21 undefined on input line 471.
+
+)
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
  [21]
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
- [22]
 \openout2 = `Cap3_DescripcionDelProyecto.aux'.
 
  (./Cap3_DescripcionDelProyecto.tex
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Citation `Benalcazar2017' on page 23 undefined on input line 6.
+LaTeX Warning: Citation `Benalcazar2017' on page 22 undefined on input line 6.
 
 
-LaTeX Warning: Citation `schindler2018higher' on page 23 undefined on input line 6.
+LaTeX Warning: Citation `schindler2018higher' on page 22 undefined on input line 6.
 
 
-LaTeX Warning: Citation `benalcazar2020higher' on page 23 undefined on input line 13.
+LaTeX Warning: Citation `benalcazar2020higher' on page 22 undefined on input line 13.
 
-[23
+[22
 
 
 
 
 ]
-<Imagenes/Models/unitary_cell.pdf, id=307, 433.62pt x 433.62pt>
+<Imagenes/Models/unitary_cell.pdf, id=361, 433.62pt x 433.62pt>
 File: Imagenes/Models/unitary_cell.pdf Graphic file (type pdf)
 <use Imagenes/Models/unitary_cell.pdf>
 Package pdftex.def Info: Imagenes/Models/unitary_cell.pdf  used on input line 37.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Models/square_hoti_model6.pdf, id=308, 433.62pt x 433.62pt>
-File: Imagenes/Models/square_hoti_model6.pdf Graphic file (type pdf)
-<use Imagenes/Models/square_hoti_model6.pdf>
-Package pdftex.def Info: Imagenes/Models/square_hoti_model6.pdf  used on input line 42.
+<Imagenes/Models/square_hoti_model4.pdf, id=362, 433.62pt x 433.62pt>
+File: Imagenes/Models/square_hoti_model4.pdf Graphic file (type pdf)
+<use Imagenes/Models/square_hoti_model4.pdf>
+Package pdftex.def Info: Imagenes/Models/square_hoti_model4.pdf  used on input line 42.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Models/square_hoti_model.pdf, id=309, 433.62pt x 433.62pt>
+<Imagenes/Models/square_hoti_model.pdf, id=363, 433.62pt x 433.62pt>
 File: Imagenes/Models/square_hoti_model.pdf Graphic file (type pdf)
 <use Imagenes/Models/square_hoti_model.pdf>
 Package pdftex.def Info: Imagenes/Models/square_hoti_model.pdf  used on input line 47.
 (pdftex.def)             Requested size: 117.07925pt x 117.07896pt.
-<Imagenes/Models/fractal_hoti_model.pdf, id=310, 433.62pt x 433.62pt>
+<Imagenes/Models/fractal_hoti_model.pdf, id=364, 433.62pt x 433.62pt>
 File: Imagenes/Models/fractal_hoti_model.pdf Graphic file (type pdf)
 <use Imagenes/Models/fractal_hoti_model.pdf>
 Package pdftex.def Info: Imagenes/Models/fractal_hoti_model.pdf  used on input line 52.
@@ -880,214 +921,211 @@ Overfull \hbox (29.60657pt too wide) in paragraph at lines 35--55
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[24]
+[23]
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [25 <./Imagenes/Models/unitary_cell.pdf> <./Imagenes/Models/square_hoti_model6.pdf> <./Imagenes/Models/square_hoti_model.pdf
-
-pdfTeX warning: pdflatex (file ./Imagenes/Models/square_hoti_model.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Imagenes/Models/fractal_hoti_model.pdf
+ [24 <./Imagenes/Models/unitary_cell.pdf> <./Imagenes/Models/square_hoti_model4.pdf> <./Imagenes/Models/square_hoti_model.pdf> <./Imagenes/Models/fractal_hoti_model.pdf
 
 pdfTeX warning: pdflatex (file ./Imagenes/Models/fractal_hoti_model.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-LaTeX Info: Redefining \. on input line 109.
-LaTeX Info: Redefining \% on input line 109.
- [26]
-LaTeX Info: Redefining \. on input line 133.
-LaTeX Info: Redefining \% on input line 133.
- [27] (./Images_Models/Image_Model_pump.tex
-<Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf, id=349, 505.89pt x 505.89pt>
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+ [25]
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+ [26] (./Images_Models/Image_Model_pump.tex
+<Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf, id=402, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf  used on input line 9.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf, id=350, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf, id=403, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf  used on input line 14.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf, id=351, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf, id=404, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf  used on input line 19.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf, id=352, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf, id=405, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf  used on input line 24.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf, id=353, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf, id=406, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf  used on input line 29.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf, id=354, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf, id=407, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf  used on input line 38.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf, id=355, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf, id=408, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf  used on input line 43.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf, id=356, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf, id=409, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf  used on input line 48.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf, id=357, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf, id=410, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf  used on input line 53.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf, id=358, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf, id=411, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf  used on input line 58.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_x_0.pdf, id=359, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_x_0.pdf, id=412, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_x_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_x_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_x_0.pdf  used on input line 67.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_x_5.pdf, id=360, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_x_5.pdf, id=413, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_x_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_x_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_x_5.pdf  used on input line 72.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_x_8.pdf, id=361, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_x_8.pdf, id=414, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_x_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_x_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_x_8.pdf  used on input line 77.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_x_11.pdf, id=362, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_x_11.pdf, id=415, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_x_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_x_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_x_11.pdf  used on input line 82.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_x_16.pdf, id=363, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_x_16.pdf, id=416, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_x_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_x_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_x_16.pdf  used on input line 87.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf, id=364, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf, id=417, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf  used on input line 96.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf, id=365, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf, id=418, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf  used on input line 101.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf, id=366, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf, id=419, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf  used on input line 106.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf, id=367, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf, id=420, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf  used on input line 111.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf, id=368, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf, id=421, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf  used on input line 116.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/square_pump_model_y_0.pdf, id=369, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_y_0.pdf, id=422, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_y_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_y_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_y_0.pdf  used on input line 124.
 (pdftex.def)             Requested size: 78.04987pt x 78.04933pt.
-<Imagenes/Models/Model_pump/square_pump_model_y_5.pdf, id=370, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_y_5.pdf, id=423, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_y_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_y_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_y_5.pdf  used on input line 129.
 (pdftex.def)             Requested size: 78.04987pt x 78.04933pt.
-<Imagenes/Models/Model_pump/square_pump_model_y_8.pdf, id=371, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_y_8.pdf, id=424, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_y_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_y_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_y_8.pdf  used on input line 134.
 (pdftex.def)             Requested size: 78.04987pt x 78.04933pt.
-<Imagenes/Models/Model_pump/square_pump_model_y_11.pdf, id=372, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_y_11.pdf, id=425, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_y_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_y_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_y_11.pdf  used on input line 139.
 (pdftex.def)             Requested size: 78.04987pt x 78.04933pt.
-<Imagenes/Models/Model_pump/square_pump_model_y_16.pdf, id=373, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/square_pump_model_y_16.pdf, id=426, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/square_pump_model_y_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/square_pump_model_y_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/square_pump_model_y_16.pdf  used on input line 144.
 (pdftex.def)             Requested size: 78.04987pt x 78.04933pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf, id=374, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf, id=427, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf  used on input line 153.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf, id=375, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf, id=428, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf  used on input line 158.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf, id=376, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf, id=429, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf  used on input line 163.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf, id=377, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf, id=430, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf  used on input line 168.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
-<Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf, id=378, 505.89pt x 505.89pt>
+<Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf, id=431, 505.89pt x 505.89pt>
 File: Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf Graphic file (type pdf)
 <use Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf>
 Package pdftex.def Info: Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf  used on input line 173.
 (pdftex.def)             Requested size: 86.72267pt x 86.71805pt.
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
- [28]
+ [27]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ))
 LaTeX Info: Redefining \. on input line 111.
 LaTeX Info: Redefining \% on input line 111.
- [29]
+ [28]
 LaTeX Info: Redefining \. on input line 111.
 LaTeX Info: Redefining \% on input line 111.
- [30 <./Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf>]
+ [29 <./Imagenes/Models/Model_pump/square_pump_model_xy_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_xy_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_xy_16.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_x_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_x_16.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_0.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_5.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_8.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_11.pdf> <./Imagenes/Models/Model_pump/square_pump_model_y_16.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_0.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_5.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_8.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_11.pdf> <./Imagenes/Models/Model_pump/fractal_pump_model_y_16.pdf>]
 \openout2 = `Cap4_Resultados.aux'.
 
  (./Cap4_Resultados.tex
 Cap\'{\i }tulo 4.
 (./Images_Resultados/Dos_Cuadrado.tex
-<Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf, id=449, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf, id=501, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf  used on input line 6.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf, id=450, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf, id=502, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf  used on input line 11.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf, id=451, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf, id=503, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf  used on input line 16.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
 )
 
-LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 31 undefined on input line 18.
+LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 30 undefined on input line 18.
 
 
-LaTeX Warning: Reference `Modelo_SSH_square_and_Fractal' on page 31 undefined on input line 18.
+LaTeX Warning: Reference `Modelo_SSH_square_and_Fractal' on page 30 undefined on input line 18.
 
 
-LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 31 undefined on input line 18.
+LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 30 undefined on input line 18.
 
 ./Cap4_Resultados.tex:18: Undefined control sequence.
 l.18 ...a/\lambda>1$ \ref{fig:Dos_Cuadrado} \texbf
@@ -1099,7 +1137,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 31 undefined on input line 18.
+LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 30 undefined on input line 18.
 
 ./Cap4_Resultados.tex:18: Undefined control sequence.
 l.18 ...a/\lambda<1$ \ref{fig:Dos_Cuadrado} \texbf
@@ -1111,7 +1149,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 31 undefined on input line 18.
+LaTeX Warning: Reference `fig:Dos_Cuadrado' on page 30 undefined on input line 18.
 
 ./Cap4_Resultados.tex:18: Undefined control sequence.
 l.18 ...figura \ref{fig:Dos_Cuadrado} para  \texbf
@@ -1122,18 +1160,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31
+[30
 
 
 
 
  <./Imagenes/Resultados_Hoti_Cuadrado/bars_square1.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bars_square2.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bars_square3.pdf>] (./Images_Resultados/Pram_Proy_Cuadrado.tex
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf, id=485, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf, id=538, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf  used on input line 6.
 (pdftex.def)             Requested size: 190.79385pt x 190.79338pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf, id=486, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf, id=539, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf  used on input line 11.
@@ -1145,7 +1183,7 @@ Overfull \hbox (28.71523pt too wide) in paragraph at lines 4--14
 
 )
 
-LaTeX Warning: Reference `fig:Pram_Proy_cuadrado' on page 32 undefined on input line 25.
+LaTeX Warning: Reference `fig:Pram_Proy_cuadrado' on page 31 undefined on input line 25.
 
 ./Cap4_Resultados.tex:25: Undefined control sequence.
 l.25 ...Figura \ref{fig:Pram_Proy_cuadrado} \texbf
@@ -1157,7 +1195,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Pram_Proy_cuadrado' on page 32 undefined on input line 25.
+LaTeX Warning: Reference `fig:Pram_Proy_cuadrado' on page 31 undefined on input line 25.
 
 ./Cap4_Resultados.tex:25: Undefined control sequence.
 l.25 ...figura \ref{fig:Pram_Proy_cuadrado} \texbf
@@ -1169,7 +1207,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:para_proy_Delta_fractal' on page 32 undefined on input line 27.
+LaTeX Warning: Reference `fig:para_proy_Delta_fractal' on page 31 undefined on input line 27.
 
 ./Cap4_Resultados.tex:27: Undefined control sequence.
 l.27 ...a \ref{fig:para_proy_Delta_fractal} \texbf
@@ -1182,53 +1220,53 @@ and I'll forget about whatever was undefined.
 
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
-[32 <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf>] (./Images_Resultados/Pram_Proy_Delta_Cuadrado.tex
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf, id=515, 433.62pt x 433.62pt>
+[31 <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square.pdf>] (./Images_Resultados/Pram_Proy_Delta_Cuadrado.tex
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf, id=567, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf  used on input line 8.
 (pdftex.def)             Requested size: 133.55511pt x 133.55405pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf, id=516, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf, id=568, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf  used on input line 13.
 (pdftex.def)             Requested size: 169.97754pt x 127.4801pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf, id=517, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf, id=569, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf  used on input line 21.
 (pdftex.def)             Requested size: 133.55511pt x 133.55405pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf, id=518, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf, id=570, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf  used on input line 26.
 (pdftex.def)             Requested size: 169.97754pt x 127.4801pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf, id=519, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf, id=571, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf  used on input line 34.
 (pdftex.def)             Requested size: 133.55511pt x 133.55405pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf, id=520, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf, id=572, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf  used on input line 39.
 (pdftex.def)             Requested size: 169.97754pt x 127.4801pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf, id=521, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf, id=573, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf  used on input line 47.
 (pdftex.def)             Requested size: 133.55511pt x 133.55405pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf, id=522, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf, id=574, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf  used on input line 52.
 (pdftex.def)             Requested size: 169.97754pt x 127.4801pt.
-<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf, id=523, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf, id=575, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf  used on input line 60.
 (pdftex.def)             Requested size: 133.55511pt x 133.55405pt.
-<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf, id=524, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf, id=576, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf  used on input line 65.
@@ -1241,17 +1279,17 @@ LaTeX Warning: Float too large for page by 31.17714pt on input line 73.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./Images_Resultados/Dos_Fractal.tex
-<Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf, id=525, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf, id=577, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf  used on input line 6.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf, id=526, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf, id=578, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf  used on input line 11.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf, id=527, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf, id=579, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf  used on input line 16.
@@ -1262,29 +1300,29 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-LaTeX Warning: Reference `fig:Dos_fractal' on page 33 undefined on input line 39.
+LaTeX Warning: Reference `fig:Dos_fractal' on page 32 undefined on input line 39.
 
 
-LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 33 undefined on input line 39.
+LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 32 undefined on input line 39.
 
 
-LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 33 undefined on input line 39.
+LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 32 undefined on input line 39.
 
 
-LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 33 undefined on input line 39.
+LaTeX Warning: Reference `fig:Param_Proy_fractal' on page 32 undefined on input line 39.
 
 (./Images_Resultados/Pram_Proy_Fractal.tex
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf, id=528, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf, id=580, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf  used on input line 6.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf, id=529, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf, id=581, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf  used on input line 11.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf, id=530, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf, id=582, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf  used on input line 16.
@@ -1295,82 +1333,82 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-LaTeX Warning: Reference `fig:para_proy_Delta_fractal' on page 33 undefined on input line 45.
+LaTeX Warning: Reference `fig:para_proy_Delta_fractal' on page 32 undefined on input line 45.
 
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
-[33] (./Images_Resultados/Pram_Proy_Delta_Fractal.tex
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf, id=534, 433.62pt x 433.62pt>
+[32] (./Images_Resultados/Pram_Proy_Delta_Fractal.tex
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf, id=587, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf  used on input line 7.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf, id=535, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf, id=588, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf  used on input line 12.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf, id=536, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf, id=589, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf  used on input line 17.
 (pdftex.def)             Requested size: 156.09975pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf, id=537, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf, id=590, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf  used on input line 25.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf, id=538, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf, id=591, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf  used on input line 30.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf, id=539, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf, id=592, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf  used on input line 35.
 (pdftex.def)             Requested size: 156.09975pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf, id=540, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf, id=593, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf  used on input line 43.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf, id=541, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf, id=594, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf  used on input line 48.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf, id=542, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf, id=595, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf  used on input line 53.
 (pdftex.def)             Requested size: 156.09975pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf, id=543, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf, id=596, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf  used on input line 61.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf, id=544, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf, id=597, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf  used on input line 66.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf, id=545, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf, id=598, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf  used on input line 71.
 (pdftex.def)             Requested size: 156.09975pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf, id=546, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf, id=599, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf  used on input line 79.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf, id=547, 433.62pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf, id=600, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf  used on input line 84.
 (pdftex.def)             Requested size: 117.07779pt x 117.07234pt.
-<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf, id=548, 578.16pt x 433.62pt>
+<Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf, id=601, 578.16pt x 433.62pt>
 File: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf  used on input line 89.
@@ -1381,34 +1419,34 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 34 undefined on input line 54.
+LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 33 undefined on input line 54.
 
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_y' on page 34 undefined on input line 54.
+LaTeX Warning: Reference `fig:Pump_cuadrado_y' on page 33 undefined on input line 54.
 
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 34 undefined on input line 54.
+LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 33 undefined on input line 54.
 
 
-LaTeX Warning: Reference `fig:Proy_pump_xy' on page 34 undefined on input line 55.
+LaTeX Warning: Reference `fig:Proy_pump_xy' on page 33 undefined on input line 55.
 
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
-[34]
+[33]
 
-LaTeX Warning: Reference `fig:Proy_pump_xy' on page 35 undefined on input line 57.
-
-
-LaTeX Warning: Reference `eq:current_density_cell' on page 35 undefined on input line 57.
+LaTeX Warning: Reference `fig:Proy_pump_xy' on page 34 undefined on input line 57.
 
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 35 undefined on input line 63.
+LaTeX Warning: Reference `eq:current_density_cell' on page 34 undefined on input line 57.
 
 
-LaTeX Warning: Reference `eq:current_density_cuadrant' on page 35 undefined on input line 63.
+LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 34 undefined on input line 63.
 
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 35 undefined on input line 70.
+LaTeX Warning: Reference `eq:current_density_cuadrant' on page 34 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:Pump_cuadrado_xy' on page 34 undefined on input line 70.
 
 ./Cap4_Resultados.tex:70: Undefined control sequence.
 l.70 ...a figura \ref{fig:Pump_cuadrado_xy} \texbf
@@ -1421,9 +1459,9 @@ and I'll forget about whatever was undefined.
 
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
-[35]
+[34]
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 36 undefined on input line 72.
+LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 35 undefined on input line 72.
 
 ./Cap4_Resultados.tex:72: Undefined control sequence.
 l.72 ...s figuras \ref{fig:Pump_cuadrado_x} \texbf
@@ -1435,7 +1473,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 36 undefined on input line 72.
+LaTeX Warning: Reference `fig:Pump_cuadrado_x' on page 35 undefined on input line 72.
 
 ./Cap4_Resultados.tex:72: Undefined control sequence.
 l.72 ...bf{(e)} y \ref{fig:Pump_cuadrado_x} \texbf
@@ -1447,36 +1485,36 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:Proy_pump_x' on page 36 undefined on input line 72.
+LaTeX Warning: Reference `fig:Proy_pump_x' on page 35 undefined on input line 72.
 
 
-LaTeX Warning: Reference `fig:Proy_pump_y' on page 36 undefined on input line 72.
+LaTeX Warning: Reference `fig:Proy_pump_y' on page 35 undefined on input line 72.
 
 
-LaTeX Warning: Reference `fig:Proy_pump_x' on page 36 undefined on input line 72.
+LaTeX Warning: Reference `fig:Proy_pump_x' on page 35 undefined on input line 72.
 
 (./Images_Resultados/Pump_cuadrado_xy.tex
-<Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf, id=555, 433.62pt x 433.62pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf, id=608, 433.62pt x 433.62pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf  used on input line 7.
 (pdftex.def)             Requested size: 130.08733pt x 130.087pt.
-<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf, id=556, 505.89pt x 433.62pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf, id=609, 505.89pt x 433.62pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf  used on input line 12.
 (pdftex.def)             Requested size: 151.76964pt x 130.087pt.
-<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf, id=557, 505.89pt x 433.62pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf, id=610, 505.89pt x 433.62pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf  used on input line 17.
 (pdftex.def)             Requested size: 151.76964pt x 130.087pt.
-<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf, id=558, 505.89pt x 433.62pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf, id=611, 505.89pt x 433.62pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf  used on input line 26.
 (pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
-<Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf, id=559, 722.7pt x 361.35pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf, id=612, 722.7pt x 361.35pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf  used on input line 31.
@@ -1486,13 +1524,611 @@ Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./Images_Resultados/Pump_cuadrado_xy_proy.tex
-<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf, id=560, 505.89pt x 505.89pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf, id=613, 505.89pt x 505.89pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf  used on input line 7.
 (pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
-<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf, id=561, 505.89pt x 505.89pt>
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf, id=614, 505.89pt x 505.89pt>
 File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf Graphic file (type pdf)
 <use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf>
 Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf  used on input line 11.
-(pdftex.def)             Reques
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos3.pdf, id=615, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos3.pdf  used on input line 15.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos4.pdf, id=616, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos4.pdf  used on input line 19.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos5.pdf, id=617, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos5.pdf  used on input line 23.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--26
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg1.pdf, id=618, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg1.pdf  used on input line 31.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg2.pdf, id=619, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg2.pdf  used on input line 35.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg3.pdf, id=620, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg3.pdf  used on input line 39.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg4.pdf, id=621, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg4.pdf  used on input line 43.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg5.pdf, id=622, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg5.pdf  used on input line 47.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 28--50
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_cuadrado_x.tex
+<Imagenes/Resultados_pump_Cuadrado/x/param_pump_A=0.5x.pdf, id=623, 433.62pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/param_pump_A=0.5x.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/param_pump_A=0.5x.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/param_pump_A=0.5x.pdf  used on input line 7.
+(pdftex.def)             Requested size: 130.08733pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/x/current_square_pumpx.pdf, id=624, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/current_square_pumpx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/current_square_pumpx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/current_square_pumpx.pdf  used on input line 12.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_negx.pdf, id=625, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_negx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_negx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_negx.pdf  used on input line 17.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_pnx.pdf, id=626, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_pnx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_pnx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_pnx.pdf  used on input line 26.
+(pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
+<Imagenes/Resultados_pump_Cuadrado/x/wannier_centerx.pdf, id=627, 722.7pt x 361.35pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/wannier_centerx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/wannier_centerx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/wannier_centerx.pdf  used on input line 31.
+(pdftex.def)             Requested size: 273.18271pt x 136.59212pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_cuadrado_x_proy.tex
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos1.pdf, id=628, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos2.pdf, id=629, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos3.pdf, id=630, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos3.pdf  used on input line 17.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos4.pdf, id=631, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos4.pdf  used on input line 22.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos5.pdf, id=632, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos5.pdf  used on input line 27.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--31
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg1.pdf, id=633, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg1.pdf  used on input line 36.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg2.pdf, id=634, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg3.pdf, id=635, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg3.pdf  used on input line 46.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg4.pdf, id=636, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg4.pdf  used on input line 51.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg5.pdf, id=637, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg5.pdf  used on input line 56.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 33--60
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_cuadrado_y.tex
+<Imagenes/Resultados_pump_Cuadrado/y/param_pump_A=0.5y.pdf, id=638, 433.62pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/param_pump_A=0.5y.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/param_pump_A=0.5y.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/param_pump_A=0.5y.pdf  used on input line 7.
+(pdftex.def)             Requested size: 130.08733pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/y/current_square_pumpy.pdf, id=639, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/current_square_pumpy.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/current_square_pumpy.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/current_square_pumpy.pdf  used on input line 12.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_negy.pdf, id=640, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_negy.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_negy.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_negy.pdf  used on input line 17.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_pny.pdf, id=641, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_pny.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_pny.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_pny.pdf  used on input line 26.
+(pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
+<Imagenes/Resultados_pump_Cuadrado/y/wannier_centery.pdf, id=642, 722.7pt x 361.35pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/wannier_centery.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/wannier_centery.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/wannier_centery.pdf  used on input line 31.
+(pdftex.def)             Requested size: 273.18271pt x 136.59212pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_cuadrado_y_proy.tex
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos1.pdf, id=643, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos2.pdf, id=644, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos3.pdf, id=645, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos3.pdf  used on input line 16.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos4.pdf, id=646, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos4.pdf  used on input line 21.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos5.pdf, id=647, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos5.pdf  used on input line 26.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--30
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg1.pdf, id=648, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg1.pdf  used on input line 35.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg2.pdf, id=649, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg2.pdf  used on input line 40.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg3.pdf, id=650, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg3.pdf  used on input line 45.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg4.pdf, id=651, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg4.pdf  used on input line 50.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg5.pdf, id=652, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg5.pdf  used on input line 55.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 32--59
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_xy.tex
+<Imagenes/Resultados_pump_Fractal/xy/param_pump_A=0.5.pdf, id=653, 433.62pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/xy/param_pump_A=0.5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/param_pump_A=0.5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/param_pump_A=0.5.pdf  used on input line 7.
+(pdftex.def)             Requested size: 130.08733pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/xy/current_square_pump.pdf, id=654, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/xy/current_square_pump.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/current_square_pump.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/current_square_pump.pdf  used on input line 12.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/xy/current_square_pump_neg.pdf, id=655, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/xy/current_square_pump_neg.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/current_square_pump_neg.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/current_square_pump_neg.pdf  used on input line 17.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/xy/current_square_pump_pn.pdf, id=656, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/xy/current_square_pump_pn.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/current_square_pump_pn.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/current_square_pump_pn.pdf  used on input line 26.
+(pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
+<Imagenes/Resultados_pump_Fractal/xy/wannier_center.pdf, id=657, 722.7pt x 361.35pt>
+File: Imagenes/Resultados_pump_Fractal/xy/wannier_center.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/wannier_center.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/wannier_center.pdf  used on input line 31.
+(pdftex.def)             Requested size: 273.18271pt x 136.59212pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_xy_proy.tex
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos1.pdf, id=658, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos2.pdf, id=659, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos3.pdf, id=660, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos3.pdf  used on input line 17.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos4.pdf, id=661, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos4.pdf  used on input line 22.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos5.pdf, id=662, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos5.pdf  used on input line 27.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--31
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg1.pdf, id=663, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg1.pdf  used on input line 36.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg2.pdf, id=664, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg3.pdf, id=665, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg3.pdf  used on input line 46.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg4.pdf, id=666, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg4.pdf  used on input line 51.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg5.pdf, id=667, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg5.pdf  used on input line 56.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 33--60
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_x.tex
+<Imagenes/Resultados_pump_Fractal/x/param_pump_A=0.5x.pdf, id=668, 433.62pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/x/param_pump_A=0.5x.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/param_pump_A=0.5x.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/param_pump_A=0.5x.pdf  used on input line 7.
+(pdftex.def)             Requested size: 130.08733pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/x/current_square_pumpx.pdf, id=669, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/x/current_square_pumpx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/current_square_pumpx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/current_square_pumpx.pdf  used on input line 12.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/x/current_square_pump_negx.pdf, id=670, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/x/current_square_pump_negx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/current_square_pump_negx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/current_square_pump_negx.pdf  used on input line 17.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/x/current_square_pump_pnx.pdf, id=671, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/x/current_square_pump_pnx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/current_square_pump_pnx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/current_square_pump_pnx.pdf  used on input line 26.
+(pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
+<Imagenes/Resultados_pump_Fractal/x/wannier_centerx.pdf, id=672, 722.7pt x 361.35pt>
+File: Imagenes/Resultados_pump_Fractal/x/wannier_centerx.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/wannier_centerx.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/wannier_centerx.pdf  used on input line 31.
+(pdftex.def)             Requested size: 273.18271pt x 136.59212pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_x_proy.tex
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos1.pdf, id=673, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos2.pdf, id=674, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos3.pdf, id=675, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos3.pdf  used on input line 17.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos4.pdf, id=676, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos4.pdf  used on input line 22.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos5.pdf, id=677, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos5.pdf  used on input line 27.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--31
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg1.pdf, id=678, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg1.pdf  used on input line 36.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg2.pdf, id=679, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg3.pdf, id=680, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg3.pdf  used on input line 46.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg4.pdf, id=681, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg4.pdf  used on input line 51.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg5.pdf, id=682, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg5.pdf  used on input line 56.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 33--60
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_y.tex
+<Imagenes/Resultados_pump_Fractal/y/param_pump_A=0.5y.pdf, id=683, 433.62pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/y/param_pump_A=0.5y.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/param_pump_A=0.5y.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/param_pump_A=0.5y.pdf  used on input line 7.
+(pdftex.def)             Requested size: 130.08733pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/y/current_square_pumpy.pdf, id=684, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/y/current_square_pumpy.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/current_square_pumpy.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/current_square_pumpy.pdf  used on input line 12.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/y/current_square_pump_negy.pdf, id=685, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/y/current_square_pump_negy.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/current_square_pump_negy.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/current_square_pump_negy.pdf  used on input line 17.
+(pdftex.def)             Requested size: 151.76964pt x 130.087pt.
+<Imagenes/Resultados_pump_Fractal/y/current_square_pump_pny.pdf, id=686, 505.89pt x 433.62pt>
+File: Imagenes/Resultados_pump_Fractal/y/current_square_pump_pny.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/current_square_pump_pny.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/current_square_pump_pny.pdf  used on input line 26.
+(pdftex.def)             Requested size: 160.43729pt x 137.51733pt.
+<Imagenes/Resultados_pump_Fractal/y/wannier_centery.pdf, id=687, 722.7pt x 361.35pt>
+File: Imagenes/Resultados_pump_Fractal/y/wannier_centery.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/wannier_centery.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/wannier_centery.pdf  used on input line 31.
+(pdftex.def)             Requested size: 273.18271pt x 136.59212pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Images_Resultados/Pump_fractal_y_proy.tex
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos1.pdf, id=688, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos2.pdf, id=689, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos2.pdf  used on input line 12.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos3.pdf, id=690, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos3.pdf  used on input line 17.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos4.pdf, id=691, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos4.pdf  used on input line 22.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos5.pdf, id=692, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos5.pdf  used on input line 27.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 4--31
+ []$[]$ 
+ []
+
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg1.pdf, id=693, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg1.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg1.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg1.pdf  used on input line 36.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg2.pdf, id=694, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg2.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg2.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg3.pdf, id=695, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg3.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg3.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg3.pdf  used on input line 46.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg4.pdf, id=696, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg4.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg4.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg4.pdf  used on input line 51.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+<Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg5.pdf, id=697, 505.89pt x 505.89pt>
+File: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg5.pdf Graphic file (type pdf)
+<use Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg5.pdf>
+Package pdftex.def Info: Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg5.pdf  used on input line 56.
+(pdftex.def)             Requested size: 95.39546pt x 95.39449pt.
+
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 33--60
+ []$[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+))
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [35]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [36 <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.01.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.01.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.05.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.05.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.1.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.1.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.3.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.3.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/bands_square_shh_0.5.pdf> <./Imagenes/Resultados_Hoti_Cuadrado/proyection_square_0.5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [37 <./Imagenes/Resultados_Hoti_Fractal/bars_square1.pdf> <./Imagenes/Resultados_Hoti_Fractal/bars_square2.pdf> <./Imagenes/Resultados_Hoti_Fractal/bars_square3.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log.pdf> <./Imagenes/Resultados_Hoti_Fractal/proyection_square.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [38 <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.05.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.05.pdf> <./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.05.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.1.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.1.pdf> <./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.1.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.2.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf
+
+pdfTeX warning: pdflatex (file ./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf
+
+pdfTeX warning: pdflatex (file ./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.3.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.3.pdf> <./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.3.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_0.5.pdf> <./Imagenes/Resultados_Hoti_Fractal/bands_square_shh_log0.5.pdf> <./Imagenes/Resultados_Hoti_Fractal/proyection_square_0.5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [39 <./Imagenes/Resultados_pump_Cuadrado/xy/param_pump_A=0.5.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_neg.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/current_square_pump_pn.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/wannier_center.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos1.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos2.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos3.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos4.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_pos5.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg1.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg2.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg3.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg4.pdf> <./Imagenes/Resultados_pump_Cuadrado/xy/hoti_pomp_xy_neg5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [40 <./Imagenes/Resultados_pump_Cuadrado/x/param_pump_A=0.5x.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/current_square_pumpx.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_negx.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/current_square_pump_pnx.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/wannier_centerx.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos1.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos2.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos3.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos4.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_pos5.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg1.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg2.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg3.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg4.pdf> <./Imagenes/Resultados_pump_Cuadrado/x/hoti_pomp_x_neg5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [41 <./Imagenes/Resultados_pump_Cuadrado/y/param_pump_A=0.5y.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/current_square_pumpy.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_negy.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/current_square_pump_pny.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/wannier_centery.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos1.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos2.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos3.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos4.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_pos5.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg1.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg2.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg3.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg4.pdf> <./Imagenes/Resultados_pump_Cuadrado/y/hoti_pomp_y_neg5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [42 <./Imagenes/Resultados_pump_Fractal/xy/param_pump_A=0.5.pdf> <./Imagenes/Resultados_pump_Fractal/xy/current_square_pump.pdf> <./Imagenes/Resultados_pump_Fractal/xy/current_square_pump_neg.pdf> <./Imagenes/Resultados_pump_Fractal/xy/current_square_pump_pn.pdf> <./Imagenes/Resultados_pump_Fractal/xy/wannier_center.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos1.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos2.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos3.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos4.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_pos5.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg1.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg2.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg3.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg4.pdf> <./Imagenes/Resultados_pump_Fractal/xy/hoti_pomp_xy_neg5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [43 <./Imagenes/Resultados_pump_Fractal/x/param_pump_A=0.5x.pdf> <./Imagenes/Resultados_pump_Fractal/x/current_square_pumpx.pdf> <./Imagenes/Resultados_pump_Fractal/x/current_square_pump_negx.pdf> <./Imagenes/Resultados_pump_Fractal/x/current_square_pump_pnx.pdf> <./Imagenes/Resultados_pump_Fractal/x/wannier_centerx.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos1.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos2.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos3.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos4.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_pos5.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg1.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg2.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg3.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg4.pdf> <./Imagenes/Resultados_pump_Fractal/x/hoti_pomp_x_neg5.pdf>]
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [44 <./Imagenes/Resultados_pump_Fractal/y/param_pump_A=0.5y.pdf> <./Imagenes/Resultados_pump_Fractal/y/current_square_pumpy.pdf> <./Imagenes/Resultados_pump_Fractal/y/current_square_pump_negy.pdf> <./Imagenes/Resultados_pump_Fractal/y/current_square_pump_pny.pdf> <./Imagenes/Resultados_pump_Fractal/y/wannier_centery.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos1.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos2.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos3.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos4.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_pos5.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg1.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg2.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg3.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg4.pdf> <./Imagenes/Resultados_pump_Fractal/y/hoti_pomp_y_neg5.pdf>]
+Cap\'{\i }tulo 5.
+[45
+
+
+
+]
+No file UNAMdissertemplate.bbl.
+(./UNAMdissertemplate.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (./Cap1_Intro.aux) (./Cap2_MarcoTeorico.aux) (./Cap3_DescripcionDelProyecto.aux) (./Cap4_Resultados.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 75 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 18268 strings out of 478287
+ 407187 string characters out of 5849289
+ 665642 words of memory out of 5000000
+ 35946 multiletter control sequences out of 15000+600000
+ 495294 words of font info for 88 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,19n,80p,1975b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on UNAMdissertemplate.pdf (50 pages, 8532487 bytes).
+PDF statistics:
+ 1884 PDF objects out of 2073 (max. 8388607)
+ 1397 compressed objects within 14 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 928 words of extra memory for PDF output out of 10000 (max. 10000000)
+
