@@ -30,6 +30,7 @@ También estos estados son robustos ante perturbaciones como se puede observar e
 \input{Images_Resultados/Pram_Proy_Delta_Cuadrado}
 
 
+\input{Images_Models/Image_Model_pump}
 
 \subsection{Hoti Fractal}
 
@@ -47,6 +48,40 @@ Sin embargo estos estados también son robustos ante perturbaciones en los pará
 
 
 \input{Images_Resultados/Pram_Proy_Delta_Fractal}
+
+\subsection{Bombeo en un red cuadrada y en una alfombra de Sierpinski}
+
+Como se mencionó en la introducción existen trabajos recientes que muestran que las propiedades de transporte en aislantes topológicos de pueden presentar con estados protegidos por invariantes como el numero de Chern. En el artículo \textit{High order topological pump}\cite{benalcazar2020higher}, Benalcazar at al. muestran estas propiedades en un arreglo experimental con guías de ondas. Inspirados en esta idea decidimos introducir parámetros cíclicos similares a los de las guía de onda propuestos en este articulo en nuestro modelo del Hoti cuadrado y fractal para lo cual haremos un cambio en los parametros de salto, como se muestra en la ecuacion \ref{eq:param_pump}, el parámetro de sitio $\epsilon_0 \apprx \pm 0.5$ toma el signo como se muestra en la figura \ref{fig:Models} \textbf{(a)}, este parametro rompe la simetria de espejo y permite que el moviemiento de los centros de wannier suceda de forma adiabatica.
+
+\begin{align}
+    \label{eq:param_pump}
+    \nonumber\gamma \rightarrow \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(1 - A \cos \theta )} \; &,\;  \lambda \rightarrow \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( 1 + A \cos \theta )} \;,\; \\  \epsilon(\theta) &= \epsilon_0 \sin \theta
+\end{align}
+
+Estas variación ciclicas se realizaron sobre diferentes direcciones en los parametros de nuestras redes: 
+
+\begin{align}
+    \label{eq:param_pumpxy}
+    \nonumber \gamma_x = \gamma_y = \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(1 - A \cos \theta )} \\ \lambda_x = \lambda_y = \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( 1 + A \cos \theta )}
+\end{align}
+\begin{align}
+    \label{eq:param_pumpx}
+    \nonumber \gamma_x =\gamma_0 \; &,\; \gamma_y = \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(1 - A \cos \theta )} \\
+    \lambda_x = \lambda_0  \; &,\;  \lambda_y = \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( 1 + A \cos \theta )}
+\end{align}
+\begin{align}
+    \label{eq:param_pumpy}
+    \nonumber \gamma_x = \gamma (\theta) = \gamma_0 e^{\displaystyle-\beta(1 - A \cos \theta )}   \; &,\; \gamma_x =\gamma_0 \\
+    \lambda_y = \lambda(\theta) = \lambda_0 e^{\displaystyle-\beta( 1 + A \cos \theta )} \; &,\; \lambda_x = \lambda_0  
+\end{align}
+
+Las variciones en los ejes $\mathbf{x}$ y $\mathbf{y}$ (eq. \ref{eq:param_pumpxy})
+
+
+Las variciones en el eje $\mathbf{x}$ (eq. \ref{eq:param_pumpx})
+
+
+Las variciones en el eje los ejes $\mathbf{y}$ (eq. \ref{eq:param_pumpy})
 
 \subsection{Bombeo en red Cuadrada}
 %% pump_cuadrado
