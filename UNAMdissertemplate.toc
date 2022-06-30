@@ -19,10 +19,9 @@
 \contentsline {subsection}{\numberline {3.3.2}Centros de Wannier en el espacio real}{26}{}%
 \contentsline {chapter}{\numberline {4}Resultados}{28}{}%
 \contentsline {section}{\numberline {4.1}Bulk HOTI cuadrado}{28}{}%
-\contentsline {subsection}{\numberline {4.1.1}Hoti Cuadrado}{28}{}%
-\contentsline {subsection}{\numberline {4.1.2}Hoti Fractal}{30}{}%
-\contentsline {subsection}{\numberline {4.1.3}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{33}{}%
-\contentsline {subsection}{\numberline {4.1.4}Bombeo en red Cuadrada}{36}{}%
-\contentsline {subsection}{\numberline {4.1.5}Bombeo en red de Sierpinski}{38}{}%
+\contentsline {section}{\numberline {4.2}Hoti Cuadrado}{28}{}%
+\contentsline {subsection}{\numberline {4.2.1}Hoti Fractal}{30}{}%
+\contentsline {subsection}{\numberline {4.2.2}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{35}{}%
+\contentsline {subsection}{\numberline {4.2.3}Bombeo en red Cuadrada}{36}{}%
+\contentsline {subsection}{\numberline {4.2.4}Bombeo en red de Sierpinski}{39}{}%
 \contentsline {chapter}{\numberline {5}Conclusiones}{45}{}%
-\contentsline {chapter}{Bibliografía}{46}{}%
