@@ -25,4 +25,3 @@
 \contentsline {subsection}{\numberline {4.4.1}Bombeo en red Cuadrada}{33}{}%
 \contentsline {subsection}{\numberline {4.4.2}Bombeo en red de Sierpinski}{36}{}%
 \contentsline {chapter}{\numberline {5}Conclusiones}{55}{}%
-\contentsline {chapter}{Bibliografía}{56}{}%
