@@ -51,7 +51,7 @@
         \label{fig:Hidrogen_chain}
     \end{figure}
     
-    Supongamos que tenemos una red unidimensional cristalina de átomo de hidrogeno que se acomodan sobre una línea recta, como se muestra en la figura(\ref{fig:Hidrogen_chain}). Los traslapes de los orbitales localizados entre vecinos cercanos ayudan al electrón a deslocalizarse de una celda a otra, saltando de un átomo a otro, este potencial de salto está dado por el potencial de traslape o \textit{hopping} entre dos sitios, denotado por $\gamma_{i,j}$, para este sistema el hamitoniano de amarre fuerte está dado por:
+    Supongamos que tenemos una red unidimensional cristalina de átomo de hidrogeno que se acomodan sobre una línea recta, como se muestra en la figura \ref{fig:Hidrogen_chain}. Los traslapes de los orbitales localizados entre vecinos cercanos ayudan al electrón a deslocalizarse de una celda a otra, saltando de un átomo a otro, este potencial de salto está dado por el potencial de traslape o \textit{hopping} entre dos sitios, denotado por $\gamma_{i,j}$, para este sistema el hamitoniano de amarre fuerte está dado por \eqref{HidrogenoTBH}:
 
     \begin{equation}
         \label{HidrogenoTBH}
@@ -59,25 +59,27 @@
     \end{equation}
     donde la primera suma es sobre el índice de la celda y la segunda suma es sobre los vecinos cercanos del átomo en la celda unitaria.
     
-    Dado que tenemos un sistema periódico, empezaremos escribiendo el operador de traslación $T = \ket{i}\bra{i+1}$ el cual denota la traslación del sitio $i$ al $i+1$, si asumimos que los términos de {\it hopping} dependen únicamente de la distancia entre dos sitios, entonces, $\gamma_{i,i+n} \equiv \gamma_{n}$, entonces ahora podemos escribir el Hamiltoniano de la ecuación \ref{HidrogenoTBH} en función del operador de traslación como $H = -\sum_n \gamma_n T_n$, notemos que ahora es posible diagonalizar el hamiltoniano en la base del operador de traslación, la cual sabemos esta compuesta por los estados de onda plana definidas como:
+    Dado que tenemos un sistema periódico, empezaremos escribiendo el operador de traslación $T = \ket{i}\bra{i+1}$ el cual denota la traslación del sitio $i$ al $i+1$, si asumimos que los términos de {\it hopping} dependen únicamente de la distancia entre dos sitios, entonces, $\gamma_{i,i+n} \equiv \gamma_{n}$, entonces ahora podemos escribir el Hamiltoniano de la ecuación \ref{HidrogenoTBH} en función del operador de traslación como $H = -\sum_n \gamma_n T_n$, notemos que ahora es posible diagonalizar el hamiltoniano en la base del operador de traslación, la cual sabemos esta compuesta por los estados de onda plana definidas como \eqref{eq:BlochFunctions}:
 
     \begin{equation}
+        \label{eq:BlochFunctions}
         \ket{k} = \frac{1}{\sqrt{N}} \sum_j e^{ikj} \ket{j} 
     \end{equation}
     con $k \in \{-\pi/a\,,\,\pi/a\}$.
     
     Si vemos la acción del operador $T^n$ sobre $\ket{k}$ tenemos $T^n \ket{k} =  e^{-ikna}\ket{k}$ 
-    por lo tanto la solución al espectro de energías de la ecuación $H(k)\ket{k} = E(k)\ket{k}$, recordando que solo se toma la interacción a primeros vecinos, esta dada por:
+    por lo tanto la solución al espectro de energías de la ecuación $H(k)\ket{k} = E(k)\ket{k}$, recordando que solo se toma la interacción a primeros vecinos, esta dada por \eqref{eq:ExampleEnergy}:
     \begin{equation}
+        \label{eq:ExampleEnergy}
         E(k) = 2\gamma \cos(ka)
     \end{equation}
     
 \section{Modelo Su-Schrieffer-Heeger (SSH)}
     
 
-El modelo de Su-Schrieffer-Heeger (SSH) es un modelo de amarre fuerte (TB) que describe un electrón sin espín en una celda unitaria con dos sitios en un red unidimensional, un sitio etiquetado por $A$ y otro por $B$ (fig \ref{fig:SSH_Fig}). Las interacciones entre los electrones no son consideradas y la dinámica de los electrones esta descrita por el Hamiltoniano de una sola partícula (\ref{eq:Hamiltonian_ssh}).
+El modelo de Su-Schrieffer-Heeger (SSH) es un modelo de amarre fuerte (TB) que describe un electrón sin espín en una celda unitaria con dos sitios en un red unidimensional, un sitio etiquetado por $A$ y otro por $B$ [fig \ref{fig:SSH_Fig}]. Las interacciones entre los electrones no son consideradas y la dinámica de los electrones esta descrita por el Hamiltoniano de una sola partícula \eqref{eq:Hamiltonian_ssh}.
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
     \centering
     \includegraphics[width=\textwidth]{Imagenes/Models/SSH_example.pdf}\vspace{-1.5cm}
     \caption{Modelo SSH para una cadena de poliacetileno, con una calda unitaria conformada por dos sitios $A$ y $B$, conectadas por parametros de salto intracelda ($\gamma$) e intercelda ($\lambda$)}
@@ -92,7 +94,7 @@ El modelo de Su-Schrieffer-Heeger (SSH) es un modelo de amarre fuerte (TB) que d
 
 Donde $\bra{i,A}$ y $\bra{i,B}$ denotan el estado de la cadena donde el electrón se encuentra en el i-sima celda , con $i \in {1,2,...,N}$ y en el sitio $A$ o $B$, respectivamente. El parametro de salto intracelda esta dado por $\gamma$ y el intertcelda por $\gamma$. El sumando $h.c.$ representa el hermitiano conjugado.
 
-La matriz del modelo SSH para una cadena con $N = 4$ celdas unitarias en el espacio real, se ve como la ecuación \ref{eq:Hamiltonian_ssh_real}.
+La matriz del modelo SSH para una cadena con $N = 4$ celdas unitarias en el espacio real, se ve como la ecuación \eqref{eq:Hamiltonian_ssh_real}.
 
 \begin{equation}
     \label{eq:Hamiltonian_ssh_real}
@@ -136,23 +138,23 @@ de tal forma que la ecuación de Shrödringer definida por el hamiltoniano escri
 Esta forma simplifica mucho el calculo de los invariantes topológicos que definen los estados electrónicos de estos aislantes topológicos.
 
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
      \centering
     \captionsetup[sub]{font=small}
 
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/bands_shh.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/proyection_ssh.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/loop_shh.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/winding_shh.pdf}
      \end{subfigure}
@@ -160,7 +162,7 @@ Esta forma simplifica mucho el calculo de los invariantes topológicos que defin
         \label{fig:SSH_Img_Results}
 \end{figure}
 
-Al resolver el sistema de los hamiltonianos (\ref{eq:Hamiltonian_ssh_real}) y (\ref{eq:Hamiltonian_ssh_bloch}) obtenemos los resultados de la figura (\ref{fig:SSH_Img_Results}), en \textbf{(a)} tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas negras corresponden a las energías del cuerpo o bulto de la cadena y las lineas rojas con azul muestran las energías de borde que aparecen debido a la finitud de la cadena y son las energias mas cercanas a la energia de Fermi, Notemos que para los parametros de salto $|\gamma/\lambda|<1$ las energías de los estados de borde se localizan en la energía de Fermi, a estos estados se le conoce como estados topológicos o fase topológica, al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real (fig \ref{fig:SSH_Img_Results} \textbf{(b)}), obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización de la cadena, por otro lado, para el los parámetros $|\gamma/\lambda| > 1$ se puede ver en la proyección de los estados de borde la densidad de probabilidad esta distribuida uniformemente en la cadena, como un aislante común, a este estado se le conoce como fase trivial.
+Al resolver el sistema de los hamiltonianos \eqref{eq:Hamiltonian_ssh_real} y \eqref{eq:Hamiltonian_ssh_bloch} obtenemos los resultados de la figura \ref{fig:SSH_Img_Results}, en \ref{fig:SSH_Img_Results} \textbf{(a)} tenemos el comportamiento del espectro de energías conforme los parámetros de salto cambian, las lineas negras corresponden a las energías del cuerpo o bulto de la cadena y las lineas rojas con azul muestran las energías de borde que aparecen debido a la finitud de la cadena y son las energias mas cercanas a la energia de Fermi. Notemos que para los parametros de salto $|\gamma/\lambda|<1$ las energías de los estados de borde se localizan en la energía de Fermi, a estos estados se le conoce como estados topológicos o fase topológica. Al proyectar la densidad de probabilidad de los estados correspondientes a estas energías en el espacio real [fig \ref{fig:SSH_Img_Results} \textbf{(b)}], obtenemos para el los parámetros entre los que $\gamma/\lambda < 1$ tenemos la densidad principalmente concentrada en los extremos del material, lo que indicaría un estado de polarización de la cadena, por otro lado, para el los parámetros $|\gamma/\lambda| > 1$ se puede ver en la proyección de los estados de borde la densidad de probabilidad esta distribuida uniformemente en la cadena, como un aislante común, a este estado se le conoce como fase trivial.
 
 Una forma de estudiar el comportamiento de los estados topológicos y triviales de esta cadena, es a través de la información que se puede obtener de la relación de dispersión. 
 
@@ -175,13 +177,13 @@ Para el modelo SSH, tenemos que:
   d_0(k) = 0 ,\; d_x(k) = \gamma + \lambda \cos(k) , \; d_y(k) = \lambda \sin(k), \; d_z(k) = 0  
 \end{equation}
 
-La estructura interna de los estados con momento $k$ esta dada por la dirección del vector $\mathbf{d}(k)$, como el numero de onda $k  \in \left[ 0, \; 2\pi \right]$, la ruta que traza $\mathbf{d}(k)$ es un circuito cerrado de radio $\lambda$ en el plano $dx, \,dy$ y centrado en el punto $(\gamma, 0)$. Para que este hamiltoniano describa un aislante es necesario que los círculos que se forman no incluyan el origen\cite{Asboth2015}. La topología de estos ciclos pueden ser caracterizados por un entero, que cuenta el numero de veces que el ciclo rodea el origen, esta cantidad es conocida como el numero de Winding, que es un invariante topológico.
+La estructura interna de los estados con momento $k$ esta dada por la dirección del vector $\mathbf{d}(k)$, como el numero de onda $k  \in \left[ 0, \; 2\pi \right]$, la ruta que traza $\mathbf{d}(k)$ es un circuito cerrado de radio $\lambda$ en el plano $dx, \,dy$ y centrado en el punto $(\gamma, 0)$. Para que este hamiltoniano describa un aislante es necesario que los círculos que se forman no incluyan el origen \cite{Asboth2015}. La topología de estos ciclos pueden ser caracterizados por un entero, que cuenta el numero de veces que el ciclo rodea el origen, esta cantidad es conocida como el número de Winding, que es un invariante topológico.
 
-Para el modelo SSH el numero de Winding puede ser 0 o 1, dependiendo de los parámetros, como se puede ver en la \ref{fig:SSH_Img_Results} \textbf{(c)}, donde se puede notar mas a detalle como los ciclos encierran o no el origen dependiendo de los parametros, cambiando las el estado del material entre topológico (rojo) y el trivial (azul). Sin embargo el numero de Winding no es el único numero que caracteriza la topología de la cadena de poliacetileno, en la figura \ref{fig:SSH_Img_Results} \textbf{(d)} se puede observar el comportamiento de la fase de Zak o fase de Berry, que es un invariante topológico que surge de la observación del cambio de fase de la funciones de bloch conforme se recorre de manera cíclica la zona de Brillouin. Este invariante describe como los estados, cuando son topologicos, ganan una fase de $\pi$, es decir, los estados no regresan a su estado inicial después de un ciclo. La Fase de Zak como otros invariantes, es un caso particular de la fase de Berry.
+Para el modelo SSH el número de Winding puede ser 0 o 1, dependiendo de los parámetros, como se puede ver en la figura \ref{fig:SSH_Img_Results} \textbf{(c)}, donde se puede notar mas a detalle como los ciclos encierran o no el origen dependiendo de los parametros, cambiando las el estado del material entre topológico (rojo) y el trivial (azul). Sin embargo el número de Winding no es el único número que caracteriza la topología de la cadena de poliacetileno, en la figura \ref{fig:SSH_Img_Results} \textbf{(d)} se puede observar el comportamiento de la fase de Zak o fase de Berry, que es un invariante topológico que surge de la observación del cambio de fase de la funciones de bloch conforme se recorre de manera cíclica la zona de Brillouin. Este invariante describe como los estados, cuando son topologicos, ganan una fase de $\pi$, es decir, los estados no regresan a su estado inicial después de un ciclo. La Fase de Zak como otros invariantes, es un caso particular de la fase de Berry.
 
 \section{Invariantes topológicos (Fase de Berry)}
 
-Se le llama Invariante topológico a cualquier numero que caracterice a el hamiltoniano de un aislante y que no cambie a través de variaciones adiabáticas. Como consecuencia de estará variaciones el invariante topológico cumple con dos características claves:
+Se le llama Invariante topológico a cualquier número que caracterice a el hamiltoniano de un aislante y que no cambie a través de variaciones adiabáticas. Como consecuencia de estará variaciones el invariante topológico cumple con dos características claves:
 \begin{itemize}
     \item Solo esta bien definido en el limite termodinámico.
     \item Depende de las simetrías que se tengan que respetar.
@@ -189,7 +191,7 @@ Se le llama Invariante topológico a cualquier numero que caracterice a el hamil
 
 Donde se entiende por variación adiabática que los parámetros cambian de forma continua , las simetrías mas importantes del sistema se mantienen y que el gap del bulto o cuerpo de la geometría que están cerca de las energías $E=0$ permanezca abierto.
 
-Existe un gran numero de invariantes topológicos que caracterizan diferentes propiedades físicas de las estructuras geométricas de los materiales, por ejemplo: el numero de Winding, la cantidad de estados de borde, el Willson loop, el numero de Chern, la fase de Berry, etc. Para los fines de este trabajo hablaremos de la fase de Berry, la cual recientemente a sido asociada como responsable de una gran gamma de fenómenos interesantes en las propiedades de los materiales, tales como la ferroelectricidad, el magnetismo orbital, el efecto hall cuantico, el bombeo de cargas y la polarización.
+Existe un gran numero de invariantes topológicos que caracterizan diferentes propiedades físicas de las estructuras geométricas de los materiales, por ejemplo: el numero de Winding, la cantidad de estados de borde, el Willson loop, el número de Chern, la fase de Berry, etc. Para los fines de este trabajo hablaremos de la fase de Berry, la cual recientemente a sido asociada como responsable de una gran gamma de fenómenos interesantes en las propiedades de los materiales, tales como la ferroelectricidad, el magnetismo orbital, el efecto hall cuantico, el bombeo de cargas y la polarización.
 
 En mecánica cuántica la función de onda normalmente se define con una fase que no tiene sentido físico ya que desaparece al tomar el valor de expectación. Sin embargo la fase de Berry mostró en 1984 que esta fase tiene efectos físicos observables si el sistema se transforma de manera adiabática y cíclica. En ausencia de degeneración, el sistema regresara este mismo punto al cerrar el ciclo, pero habrá una diferencia de fase igual a la integral temporal de la energía mas un termino extra que es lo que conocemos como fase de Berry.
 
@@ -197,12 +199,12 @@ Consideremos un sistema general descrito por el hamiltoniano $H(\mathbf{\lambda}
 \begin{equation}
     H(\lambda) \ket{n(\lambda)} =  E_n\ket{n(\lambda)}
 \end{equation}
-De acuerdo con el teorema adiabatico, un sistema que se encuentra inicialmenten en el estado $\ket{n(\lambda_0)}$ permanecera como un eigenestado instantaneo de $H(\lambda)$ para todo $t$, entonces:
+De acuerdo con el teorema adiabático, un sistema que se encuentra inicialmente en el estado $\ket{n(\lambda_0)}$ permanecerá como un eigenestado instantaneo de $H(\lambda)$ para todo $t$, entonces:
 \begin{align}
     \ket{\psi(t)} =  e^{i\theta_n(t)}\ket{n(\lambda)}
 \end{align}
 
-Introduciendo la ecuacion anterior en la ecuacion de Shrodringer:
+Introduciendo la ecuación anterior en la ecuación de Shrodringer:
 \begin{align}
     (H(\lambda) - \partial_t) e^{i\theta_n(t)}\ket{n(\lambda)} =  0
 \end{align}
@@ -317,7 +319,7 @@ Para esto primero suponemos que la concentración de electrones esta al rededor 
         &= \int w^*_n(\textbf{r})\,\textbf{r}\, w_n(\textbf{r})\, d^3\textbf{r}
 \end{split}
 \end{equation}
-Como se verá más adelante en el marco teórico, la ecuación \ref{Wcenter} se puede escribir en términos de las funciones periódicas $u_{n\textbf{k}}$ y usando al operador posición en la representación de momentos $\textbf{r} = -i\frac{\partial}{\partial\textbf{k}}$:
+ Además, la ecuación \eqref{eq:Wcenter} se puede escribir en términos de las funciones periódicas $u_{n\textbf{k}}$ y usando al operador posición en la representación de momentos $\textbf{r} = -i\frac{\partial}{\partial\textbf{k}}$:
 \begin{equation}
     \overline{\textbf{r}} = i\frac{\Omega}{(2\pi)^3} \int_{BZ} d^3\textbf{k}\,e^{-i\textbf{k}\cdot\textbf{R}}\braket{u_{n\textbf{k}}}{\frac{\partial u_{n\textbf{k}} }{\partial\textbf{k}}}
 \end{equation}
@@ -338,23 +340,23 @@ Está cantidad será la central en el calculo de invariantes topológicos en est
 
 \section{Bombeo Adiabático}
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
      \centering
     \captionsetup[sub]{font=small}
 
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/bands_shh_pump.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/loop_pump_ssh.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/winding_shh_pump.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Shh_images/wannier_center_shh_pump.pdf}
      \end{subfigure}
@@ -404,9 +406,9 @@ Y el hamiltoniano en el espacio real, para una cadena con 4 celdas unitarias:
         \end{pmatrix}
 \end{equation}
 
-En la figura \ref{fig:Pump_example_Results} \textbf{(a)}, \textbf{(b)} y \textbf{(c)} se pueden observar diferentes formas de observar la transición de fase entre fase topológica y trivial, en fig.\ref{fig:Pump_example_Results} \textbf{(a)}, se puede ver como en el espectro de bandas el comportamiento de las energías de los estados de borde cambian de tener un gap amplio, es decir una fase trivial, a tener una brecha energética nula o una fase topológica, podemos seguir este cambio a través del numero de winding, en la fig.\ref{fig:Pump_example_Results} \textbf{(b)} como los círculos que forman la relación de dispersión pasan de rodear el origen a no hacerlo, en la fig.\ref{fig:Pump_example_Results} \textbf{(c)} se puede observar un cambio mas abrupto en la transición de fase no trivial, pues este caracteriza la fase que la ecuación de onda gana cuando se recorre un ciclo por la zona de brilluan, esto determina que hay valores en la variación temporal en los que el material ganara una fase y hay otros en los que no. Por ultimo, Si nuestro material gana una fase y traiciona de estado a estado después de en un ciclo, existe un cambio en el? La respuesta es si, a pesar de que el hamiltoniano del material no haya cambiado después de el ciclo, los eigenestados si cambiaron y esto se ve reflejado en un bombeo de cargar a través de la cadena.
+En la figura \ref{fig:Pump_example_Results} \textbf{(a)}, \textbf{(b)} y \textbf{(c)} se pueden observar diferentes formas de observar la transición de fase entre fase topológica y trivial. En la figura \ref{fig:Pump_example_Results} \textbf{(a)} se puede ver como en el espectro de bandas, el comportamiento de las energías de los estados de borde, cambian de tener un gap amplio, es decir una fase trivial, a tener una brecha energética nula o una fase topológica, podemos seguir este cambio a través del número de winding, como se observa en la figura \ref{fig:Pump_example_Results} \textbf{(b)} los círculos que forman la relación de dispersión pasan de rodear el origen a no hacerlo. En la figura \ref{fig:Pump_example_Results} \textbf{(c)} se puede observar un cambio mas abrupto en la transición de fase no trivial, pues este caracteriza la fase que la ecuación de onda gana cuando se recorre un ciclo por la zona de Brillouin, esto determina que hay valores en la variación temporal en los que el material ganara una fase y hay otros en los que no. Por ultimo, Si nuestro material gana una fase y traiciona de estado a estado después de en un ciclo, ¿Existe un cambio en él? La respuesta es si, a pesar de que el hamiltoniano del material no haya cambiado después de el ciclo, los eigenestados si cambiaron y esto se ve reflejado en un bombeo de cargar a través de la cadena.
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
     \centering
    \captionsetup[sub]{font=small}
 
@@ -434,29 +436,29 @@ En la figura \ref{fig:Pump_example_Results} \textbf{(a)}, \textbf{(b)} y \textbf
     \label{fig:pump_RM_proyection}
 \end{figure}
 
-Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los centros de wannier de cada celda, si existe un desplazamiento de este centro de celda a celda, la fase que gana nuestro sistema después de un ciclo, se puede interpretar como el desplazamiento de cargas de una celda a otra lo que denotaría que existe un bombeo y como vimos en el capitulo anterior, la corriente generada por este bombeo propicia un estado de polarización en el material, el cual se puede observar cuando proyectamos los estados de las energías centrales de \ref{fig:Pump_example_Results} \textbf{(a)} en el espacio real, fig(\ref{fig:pump_RM_proyection}).
+Una forma de estudiar esta cuestión es a través de hacer un seguimiento de los centros de wannier de cada celda, si existe un desplazamiento de este centro de celda a celda, la fase que gana nuestro sistema después de un ciclo, se puede interpretar como el desplazamiento de cargas de una celda a otra lo que denotaría que existe un bombeo y como vimos en el capitulo anterior, la corriente generada por este bombeo propicia un estado de polarización en el material, el cual se puede observar cuando proyectamos los estados de las energías mas cercanas a la energía de Fermi del Rice-Mele [Fig. \ref{fig:Pump_example_Results} \textbf{(a)}] en el espacio real [Fig. \ref{fig:pump_RM_proyection}].
 
 
 \section{Fractales (Sierpinsky Carpet)}
 \label{sc:Fractales}
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
      \centering
     \captionsetup[sub]{font=small}
 
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_1.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_2.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_3.pdf}
      \end{subfigure}\hspace*{-0.9em}
-     \begin{subfigure}[b!]{0.27 \textwidth}
+     \begin{subfigure}[b!]{0.25 \textwidth}
          \caption{}
          \includegraphics[width=\textwidth]{Imagenes/Fractal/sierpinski_carpet_4.pdf}
      \end{subfigure}

@@ -8,7 +8,7 @@
 \end{minipage}
 \end{center}
 
-\section{Bulk HOTI cuadrado}
+%\section{Bulk HOTI cuadrado}
 
 
 
@@ -21,18 +21,18 @@ En la figura \ref{fig:Dos_Cuadrado} podemos ver el comportamiento del número de
 \input{Images_Resultados/Pram_Proy_Cuadrado}
 
 
-\begin{figure}[h!]
+\begin{figure}[tbh!]
     \centering
    \captionsetup[sub]{font=small}
 
-    \begin{subfigure}[b!]{0.5 \textwidth}
+    \begin{subfigure}[b!]{0.45 \textwidth}
         \caption{}
         \includegraphics[width=\textwidth]{Imagenes/Resultados_Hoti_Cuadrado/spectre_square.pdf}
     \end{subfigure}
-    \begin{subfigure}[b!]{0.5 \textwidth}
+    \begin{subfigure}[b!]{0.45 \textwidth}
         \caption{}
         \includegraphics[width=\textwidth]{Imagenes/Resultados_Hoti_Cuadrado/spectre_square_epsi.pdf}
-    \end{subfigure}\hspace*{-0.9em}
+    \end{subfigure}
        \caption{\textbf{(a)} Espectro de energias odenadas para la red cristalina cuadrada con $\gamma = 0.5$ y $\lambda = 1.0$. \textbf{(b)} Cambio del espectro de energias cuando se perturban los parametros de salto con $\epsilon = 50\%$.}
        \label{fig:spectre_square_epsi}
 \end{figure}
@@ -44,6 +44,8 @@ Para ver más a detalle como sucede esta transición de fase podemos hacer un se
 \input{Images_Resultados/Pram_Proy_Delta_Cuadrado}
 
 También estos estados son robustos ante perturbaciones adiabáticas como se puede observar en las figuras \ref{fig:para_proy_Delta_fractal} \textbf{(a)-(e)} donde las perturbaciones se ejercieron sobre los parámetros de salto $\gamma' = \gamma( 1 \pm \epsilon) ,\, \, \lambda' = \lambda( 1 \pm \epsilon)$ con $\epsilon = [1\%, 5\%, 10\%,30\%,50\%,]$, se puede notar que estas variaciones solo cambian las energías correspondientes a los estados del bulto [Fig.\ref{fig:spectre_square_epsi} \textbf{(b)}], mientras los estados de borde que permanecen robustos con $|E - E_{\epsilon = 50\%}| < 10^{-3}$. Esta robustes se ve reflejada en que los estados de borde que se localizan en las esquinas permanecen imperturbables.
+
+\newpage
 
 
 \section{Hoti Fractal}
@@ -64,9 +66,10 @@ En la Figura \ref{fig:spectre_fractal_epsi} \textbf{(b)} podemos ver como las en
 
 
 
-\input{Images_Resultados/Pram_Proy_Delta_Fractal}
 
-\begin{figure}[h!]
+
+
+\begin{figure}[tbh!]
     \centering
    \captionsetup[sub]{font=small}
 
@@ -81,11 +84,17 @@ En la Figura \ref{fig:spectre_fractal_epsi} \textbf{(b)} podemos ver como las en
     \begin{subfigure}[b!]{0.33 \textwidth}
         \caption{}
         \includegraphics[width=\textwidth]{Imagenes/Resultados_Hoti_Fractal/pertubation_gen_fractal.pdf}
-    \end{subfigure}\hspace*{-0.9em}
+    \end{subfigure}\hspace*{-0.9em} \vspace*{1.0em}
+
 
        \caption{\textbf{(a)} Espectro de energias odenadas para la red Sierpinski con $\gamma = 0.5$ y $\lambda = 1.0$. \textbf{(b)} Cambio del espectro de energias cuando se perturban los parametros de salto con $\epsilon = 30\%$.\textbf{(b)} Variación de las energias de borde como función de $\epsilon$ para diferentes generaciones de la red de Sierpinski, los puntos rojos corresponden a las energias del borde I y las azules corresponden a las energias del borde III.}
        \label{fig:spectre_fractal_epsi}
 \end{figure}
+
+\input{Images_Resultados/Pram_Proy_Delta_Fractal}
+
+\newpage
+
 
 \section{Bombeo en un red cuadrada y en una alfombra de Sierpinski}
 
@@ -127,6 +136,7 @@ Los moviemientos que generan las variaciones de los parametros de salto sobre la
 
 \input{Images_Models/Image_Model_pump}
 
+\clearpage
 
 \subsection{Bombeo en red Cuadrada}
 %% pump_cuadrado
@@ -168,7 +178,7 @@ El bombeo de densidad de probabilidad se da por este desplazamiento del valores 
 \input{Images_Resultados/Pump_cuadrado_y_proy}
 
 
-
+\clearpage
 
 \subsection{Bombeo en red de Sierpinski}
 %% Pump_fractal

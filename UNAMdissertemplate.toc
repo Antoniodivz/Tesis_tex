@@ -9,20 +9,19 @@
 \contentsline {section}{\numberline {2.3}Invariantes topológicos (Fase de Berry)}{11}%
 \contentsline {subsection}{\numberline {2.3.1}Polarización, centros de Wannier y Fase de Berry}{13}%
 \contentsline {section}{\numberline {2.4}Bombeo Adiabático}{18}%
-\contentsline {subsection}{\numberline {2.4.1}Modelo de Rice-Mele}{18}%
+\contentsline {subsection}{\numberline {2.4.1}Modelo de Rice-Mele}{19}%
 \contentsline {section}{\numberline {2.5}Fractales (Sierpinsky Carpet)}{20}%
-\contentsline {chapter}{\numberline {3}Descripción del proyecto}{22}%
-\contentsline {section}{\numberline {3.1}Objetivo general}{22}%
-\contentsline {section}{\numberline {3.2}Objetivo particular}{23}%
-\contentsline {section}{\numberline {3.3}Detalles de la implementación}{23}%
-\contentsline {subsection}{\numberline {3.3.1}Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}{23}%
-\contentsline {subsection}{\numberline {3.3.2}Centros de Wannier en el espacio real}{26}%
-\contentsline {chapter}{\numberline {4}Resultados}{28}%
-\contentsline {section}{\numberline {4.1}Bulk HOTI cuadrado}{28}%
-\contentsline {section}{\numberline {4.2}Hoti Cuadrado}{28}%
-\contentsline {section}{\numberline {4.3}Hoti Fractal}{30}%
-\contentsline {section}{\numberline {4.4}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{32}%
-\contentsline {subsection}{\numberline {4.4.1}Bombeo en red Cuadrada}{33}%
-\contentsline {subsection}{\numberline {4.4.2}Bombeo en red de Sierpinski}{36}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{55}%
-\contentsline {chapter}{Bibliografía}{57}%
+\contentsline {chapter}{\numberline {3}Descripción del proyecto}{23}%
+\contentsline {section}{\numberline {3.1}Objetivo general}{23}%
+\contentsline {section}{\numberline {3.2}Objetivo particular}{24}%
+\contentsline {section}{\numberline {3.3}Detalles de la implementación}{24}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}{24}%
+\contentsline {subsection}{\numberline {3.3.2}Centros de Wannier en el espacio real}{27}%
+\contentsline {chapter}{\numberline {4}Resultados}{29}%
+\contentsline {section}{\numberline {4.1}Hoti Cuadrado}{29}%
+\contentsline {section}{\numberline {4.2}Hoti Fractal}{33}%
+\contentsline {section}{\numberline {4.3}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{37}%
+\contentsline {subsection}{\numberline {4.3.1}Bombeo en red Cuadrada}{40}%
+\contentsline {subsection}{\numberline {4.3.2}Bombeo en red de Sierpinski}{49}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{57}%
+\contentsline {chapter}{Bibliografía}{59}%
