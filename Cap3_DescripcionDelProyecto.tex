@@ -82,20 +82,40 @@ Particularmente, en los sistemas de geometría 2-dimensional se ha observados qu
      
     Como podemos notar, las matrices que describen a estos sistemas son matrices de conexión por lo tanto es una matriz simétrica, de igual forma que en el caso uni-dimensional, es posible suponer condiciones periódicas a las frontera y obtener la matriz expresada en el espacio de momentos (eq.\ref{eq:BBH_Model_bloch}).
     
-    \begin{equation}
+    \begin{align}
+        %\label{eq:BBH_Model_bloch}
+        \nonumber H (k_x, k_y) &= \gamma [ \sigma_0 \otimes \tau_x  - \sigma_x \otimes \tau_z] \\ 
+        \nonumber &-\lambda \cos k_x [ \sigma_x \otimes \tau_z ]  + \lambda \cos k_y [ \sigma_0 \otimes \tau_x] \\
+        &- \lambda \sin k_x [ \sigma_y \otimes \tau_z ]  + \lambda \sin k_y [ \sigma_0 \otimes \tau_z]
+    \end{align}
+Donde $k_x$ y $k_y$ son las proyecciones del vector $\mathbf{k}$ de momentos sobre las direcciones $\mathbf{x}$ y $\mathbf{y}$, es decir, $\mathbf{k} = (k_x, k_y)$ y donde $\sigma_\mu$, $\tau_\mu$ son las matrices de Pauli de $2\times2$ y el operador $\otimes$ funciona como:
+
+\begin{align}
+    \sigma_0 \otimes \tau_x = 
+    \begin{pmatrix}
+        \sigma_0&0 \\
+        0&\sigma_0
+    \end{pmatrix} = 
+    \begin{pmatrix}
+        0&1&0&0 \\
+        1&0&0&0 \\
+        0&0&0&1 \\
+        0&0&1&0 \\
+    \end{pmatrix}
+\end{align}
+
+Dando como resultado \eqref{eq:BBH_Model_bloch} el modelo que es conocido como modelo BBH (Benalcazar, Bernevig y Hughes). 
+
+ \begin{equation}
     \label{eq:BBH_Model_bloch}
-    H =      
+    H(\mathbf{k}) =      
      \begin{pmatrix}
             0 & -\gamma - \lambda e^{-ik_x} & \gamma + \lambda e^{-ik_y} &  0 \\
-             -\gamma - \lambda e^{ik_x} & 0 &  0 & \gamma + \lambda e^{-ik_y}  \\
+           -\gamma - \lambda e^{ik_x} & 0 &  0 & \gamma + \lambda e^{-ik_y}  \\
              \gamma + \lambda e^{ik_y} & 0 & 0 &  \gamma + \lambda e^{-ik_x} \\
              0 & \gamma + \lambda e^{ik_y} &  \gamma + \lambda e^{ik_x} & 0  \\
      \end{pmatrix} 
-    \end{equation}
-
-Donde $k_x$ y $k_y$ son las proyecciones del vector $\mathbf{k}$ de momentos sobre las direcciones $\mathbf{x}$ y $\mathbf{y}$, es decir, $\mathbf{k} = (k_x, k_y)$ este modelo se le conoce como modelo BBH (Benalcazar, Bernevig y Hughes). 
-
-
+\end{equation}
 Ahora ¿Cómo implementamos la idea del HOTI cuadrado con el modelo de BBH en nuestra en una alfombra de Sierpinski? Una de las primeras cosas es notar como es el proceso iterativo de la construcción de una alfombra de Sierpinski, este proceso se describe la sección \ref{sc:Fractales}, para esta construcción se comenzó con un red crsitalina cuadrada inicial compuesta por 9 celdas unitarias y 36 sitos, a este cuadrado se le extrae la celda unitaria del centro, obteniendo una red como la de la figura \ref{fig:Fractals} \textbf{(b)}, esta idea sea itera $N=2$ veces obteniendo la red fractal que esperamos (fig. \ref{fig:Fractals} \textbf{(c)} y fig. \ref{fig:Models} \textbf{(d)} ), a diferencia del escalamiento que se observa en la construcción común de un fractal (fig. \ref{fig:Models}), para mantener las celdas con el mismo tamaño es necesario hacer el sistema cada vez mas grande. 
 
 El hamitoniano que describe a este sistema estará dado por la matriz de conexión, sin embargo, dado que este sistema no tiene simetría traslación sobre la celda unitaria no es posible tener un hamiltoniano de Bloch que nos permita encontrar la solución en el espacio reciproco y así estudiar las propiedades electrónicas de las que nos podría proveer la teoría de bandas.

@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter*.2}{Agradecimientos}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Resumen}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Marco Te\363rico}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Modelo de enlace fuerte \(TB\)}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Ejemplo}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Modelo Su-Schrieffer-Heeger \(SSH\)}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Invariantes topol\363gicos \(Fase de Berry\)}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Polarizaci\363n, centros de Wannier y Fase de Berry}{section.2.3}% 9
+\BOOKMARK [1][-]{section.2.4}{Bombeo Adiab\341tico}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.4.1}{Modelo de Rice-Mele}{section.2.4}% 11
+\BOOKMARK [1][-]{section.2.5}{Fractales \(Sierpinsky Carpet\)}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Descripci\363n del proyecto}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Objetivo general}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Objetivo particular}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Detalles de la implementaci\363n}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.1}{Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.2}{Centros de Wannier en el espacio real}{section.3.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Hoti Cuadrado}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Hoti Fractal}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{Bombeo en un red cuadrada y en una alfombra de Sierpinski}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.3.1}{Bombeo en red Cuadrada}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Bombeo en red de Sierpinski}{section.4.3}% 24
+\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 25
+\BOOKMARK [0][-]{chapter.5}{Bibliograf\355a}{}% 26

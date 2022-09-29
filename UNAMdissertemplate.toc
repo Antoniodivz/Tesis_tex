@@ -1,27 +1,27 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{Agradecimientos}{\es@scroman {ii}}%
-\contentsline {chapter}{Resumen}{\es@scroman {iii}}%
-\contentsline {chapter}{\numberline {1}Introducción}{1}%
-\contentsline {chapter}{\numberline {2}Marco Teórico}{5}%
-\contentsline {section}{\numberline {2.1}Modelo de enlace fuerte (TB)}{5}%
-\contentsline {subsection}{\numberline {2.1.1}Ejemplo}{6}%
-\contentsline {section}{\numberline {2.2}Modelo Su-Schrieffer-Heeger (SSH)}{7}%
-\contentsline {section}{\numberline {2.3}Invariantes topológicos (Fase de Berry)}{11}%
-\contentsline {subsection}{\numberline {2.3.1}Polarización, centros de Wannier y Fase de Berry}{13}%
-\contentsline {section}{\numberline {2.4}Bombeo Adiabático}{18}%
-\contentsline {subsection}{\numberline {2.4.1}Modelo de Rice-Mele}{19}%
-\contentsline {section}{\numberline {2.5}Fractales (Sierpinsky Carpet)}{20}%
-\contentsline {chapter}{\numberline {3}Descripción del proyecto}{23}%
-\contentsline {section}{\numberline {3.1}Objetivo general}{23}%
-\contentsline {section}{\numberline {3.2}Objetivo particular}{24}%
-\contentsline {section}{\numberline {3.3}Detalles de la implementación}{24}%
-\contentsline {subsection}{\numberline {3.3.1}Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}{24}%
-\contentsline {subsection}{\numberline {3.3.2}Centros de Wannier en el espacio real}{27}%
-\contentsline {chapter}{\numberline {4}Resultados}{29}%
-\contentsline {section}{\numberline {4.1}Hoti Cuadrado}{29}%
-\contentsline {section}{\numberline {4.2}Hoti Fractal}{33}%
-\contentsline {section}{\numberline {4.3}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{37}%
-\contentsline {subsection}{\numberline {4.3.1}Bombeo en red Cuadrada}{40}%
-\contentsline {subsection}{\numberline {4.3.2}Bombeo en red de Sierpinski}{49}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{57}%
-\contentsline {chapter}{Bibliografía}{59}%
+\contentsline {chapter}{Agradecimientos}{\es@scroman {ii}}{chapter*.2}%
+\contentsline {chapter}{Resumen}{\es@scroman {iii}}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modelo de enlace fuerte (TB)}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Ejemplo}{6}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Modelo Su-Schrieffer-Heeger (SSH)}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Invariantes topológicos (Fase de Berry)}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Polarización, centros de Wannier y Fase de Berry}{13}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Bombeo Adiabático}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Modelo de Rice-Mele}{19}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Fractales (Sierpinsky Carpet)}{20}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Descripción del proyecto}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objetivo general}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Objetivo particular}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Detalles de la implementación}{24}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo BBH en una Red Cuadrada y en una alfombra de Sierpinski}{24}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Centros de Wannier en el espacio real}{27}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Resultados}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hoti Cuadrado}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Hoti Fractal}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Bombeo en un red cuadrada y en una alfombra de Sierpinski}{38}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Bombeo en red Cuadrada}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Bombeo en red de Sierpinski}{50}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{58}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{60}{chapter.5}%
